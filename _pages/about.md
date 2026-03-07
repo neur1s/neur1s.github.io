@@ -9,7 +9,7 @@ author_profile: false
   <img src="/images/profile_pic.png" style="width: 180px; border-radius: 50%; margin-bottom: 15px;" alt="Sofiya Zbaranska">
   
   <h1>Sofiya Zbaranska</h1>
-  <p><strong>Neuroscience PhD Candidate @ University of Toronto</strong></p>
+  <p>Neuroscience PhD Candidate @ University of Toronto</p>
   <div style="font-size: 1.5em; margin-bottom: 15px;">🇺🇦</div>
 
   <div style="font-size: 1.8em; margin-top: 10px;">
