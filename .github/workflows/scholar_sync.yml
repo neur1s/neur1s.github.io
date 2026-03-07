@@ -2,7 +2,7 @@ name: Sync Google Scholar
 
 on:
   schedule:
-    - cron: '0 0 * * 4' 
+    - cron: '0 0 * * 0' # Every Sunday
   workflow_dispatch: 
 
 jobs:
@@ -11,44 +11,22 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install scholarly
+        run: pip install scholarly pyyaml
 
-      - name: Fetch Scholar Data
-        run: |
-          python -c "
-          from scholarly import scholarly
-          import json
-          import os
-          author = scholarly.search_author_id('7ZBuO4wAAAAJ')
-          author = scholarly.fill(author, sections=['publications'])
-          data = {
-              'total_citations': author.get('citedby', 0),
-              'h_index': author.get('hindex', 0),
-              'publications': [
-                  {
-                      'title': p['bib'].get('title', 'N/A'),
-                      'year': p['bib'].get('pub_year', 'N/A'),
-                      'venue': p['bib'].get('venue', 'N/A'),
-                      'author': p['bib'].get('author', 'N/A')
-                  } for p in author['publications']
-              ]
-          }
-          os.makedirs('_data', exist_ok=True)
-          with open('_data/scholar.json', 'w') as f:
-              json.dump(data, f, indent=4)
-          "
+      - name: Run Sync Script
+        run: python scripts/sync_scholar.py
 
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add _data/scholar.json
-          git commit -m "Update Scholar Data" || exit 0
+          git add _data/scholar_publications.yml
+          git commit -m "Update Google Scholar publications" || exit 0
           git push
