@@ -1,41 +1,40 @@
-from scholarly import scholarly, ProxyGenerator
+import feedparser # You'll need to add this to your workflow
 import yaml
 import os
 
 def sync_scholar():
-    pg = ProxyGenerator()
-    pg.FreeProxies() 
-    scholarly.use_proxy(pg)
-    scholar_id = '7ZBuO4wAAAAJ'
+    # Your ID is 7ZBuO4wAAAAJ
+    # The RSS feed URL for your citations:
+    rss_url = "https://scholar.google.com/citations?view_op=export_metadata&hl=en&user=7ZBuO4wAAAAJ&output=rss"
     
-    print(f"Fetching data for scholar ID: {scholar_id}...")
-    author = scholarly.search_author_id(scholar_id)
-    scholarly.fill(author, sections=['publications'])
+    print(f"Fetching RSS feed from Google Scholar...")
+    feed = feedparser.parse(rss_url)
     
+    if not feed.entries:
+        print("No entries found. Google might be blocking the RSS request.")
+        return
+
     publications = []
-    for pub in author['publications']:
+    for entry in feed.entries:
+        # RSS usually gives: Title, Link, and Summary (which contains Year/Authors)
         p = {
-            'title': pub['bib'].get('title', 'Unknown Title'),
-            'year': pub['bib'].get('pub_year', 'N/A'),
-            'citation': pub.get('num_citations', 0),
-            # Extracting a cleaner URL if possible
-            'url': f"https://scholar.google.com/citations?view_op=view_citation&citation_for_view={pub['author_pub_id']}"
+            'title': entry.title,
+            'url': entry.link,
+            # RSS summary is a bit messy, but it usually contains the year
+            'year': entry.published[:4] if hasattr(entry, 'published') else "N/A",
+            'description': entry.summary if hasattr(entry, 'summary') else ""
         }
         publications.append(p)
-    
-    # Sort by year (newest first)
-    publications.sort(key=lambda x: str(x['year']), reverse=True)
+        print(f"Fetched: {p['title']}")
 
-    # Ensure the _data directory exists (relative to the repo root)
     data_dir = os.path.join(os.path.dirname(__file__), '..', '_data')
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
 
-    output_path = os.path.join(data_dir, 'scholar_publications.yml')
-    with open(output_path, 'w', encoding='utf-8') as f:
+    with open(os.path.join(data_dir, 'scholar_publications.yml'), 'w', encoding='utf-8') as f:
         yaml.dump(publications, f, default_flow_style=False, sort_keys=False)
     
-    print(f"Success! {len(publications)} publications saved to _data/scholar_publications.yml")
+    print(f"Success! Saved {len(publications)} entries.")
 
 if __name__ == "__main__":
     sync_scholar()
