@@ -3,8 +3,8 @@ name: Convert CV to Markdown
 on:
   push:
     paths:
-      - 'Sofiya_CV.tex' # Trigger only when you change your LaTeX CV
-  workflow_dispatch: # Allows manual run
+      - 'Sofiya_CV.tex'
+  workflow_dispatch: 
 
 jobs:
   convert:
@@ -14,18 +14,15 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Pandoc
-* run: sudo apt-get install -y pandoc
+        run: sudo apt-get install -y pandoc
 
       - name: Convert LaTeX to Markdown
         run: |
-          # We add a Jekyll "Front Matter" header so the website knows how to style it
           echo "---" > cv.md
           echo "layout: page" >> cv.md
           echo "title: Curriculum Vitae" >> cv.md
           echo "permalink: /cv/" >> cv.md
           echo "---" >> cv.md
-          
-          # The actual conversion command
           pandoc cv.tex -f latex -t markdown_strict >> cv.md
 
       - name: Commit and Push
