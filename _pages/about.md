@@ -13,16 +13,16 @@ author_profile: false
   <div style="font-size: 1.5em; margin-bottom: 15px;">🇺🇦</div>
 
   <div style="font-size: 1.8em; margin-top: 10px;">
-  <a href="mailto:your.email@utoronto.ca" style="margin: 0 12px; color: #9b7c75; text-decoration: none;">
+  <a href="mailto:sofiya.zbaranska@utoronto.ca" style="margin: 0 10px; color: #ba9a98; text-decoration: none;">
     <i class="fas fa-fw fa-envelope"></i>
   </a>
-  <a href="https://github.com/neur1s" style="margin: 0 12px; color: #9b7c75; text-decoration: none;">
+  <a href="https://github.com/neur1s" style="margin: 0 10px; color: #ba9a98; text-decoration: none;">
     <i class="fab fa-fw fa-github"></i>
   </a>
-  <a href="https://twitter.com/neur1s" style="margin: 0 12px; color: #9b7c75; text-decoration: none;">
+  <a href="https://twitter.com/neur1s" style="margin: 0 10px; color: #ba9a98; text-decoration: none;">
     <i class="fab fa-fw fa-twitter"></i>
   </a>
-  <a href="https://scholar.google.com/citations?user=7ZBuO4wAAAAJ&hl=en" style="margin: 0 12px; color: #9b7c75; text-decoration: none;">
+  <a href="https://scholar.google.com/citations?user=7ZBuO4wAAAAJ&hl=en" style="margin: 0 10px; color: #ba9a98; text-decoration: none;">
     <i class="ai ai-google-scholar"></i>
   </a>
 </div>
