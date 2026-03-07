@@ -5,9 +5,13 @@ permalink: /cv/
 ---
 
 <style>
-  .wrapper, .post, .page, .page-content { max-width: 1000px !important; margin: 0 auto !important; }
+  #main, .page, .page__inner-wrap, .archive { 
+    max-width: 1000px !important; 
+    margin-left: auto !important; 
+    margin-right: auto !important; 
+    padding-right: 0 !important;
+  }
 </style>
-
 
 **Sofiya Zbaranska**  
 *Physiology Ph.D. Student*  
