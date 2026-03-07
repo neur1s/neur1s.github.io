@@ -1,17 +1,9 @@
 ---
-layout: page
+layout: cv_layout
 title: Curriculum Vitae
 permalink: /cv/
+author_profile: true
 ---
-
-<style>
-  #main, .page, .page__inner-wrap, .archive { 
-    max-width: 1000px !important; 
-    margin-left: auto !important; 
-    margin-right: auto !important; 
-    padding-right: 0 !important;
-  }
-</style>
 
 **Sofiya Zbaranska**  
 *Physiology Ph.D. Student*  
