@@ -98,8 +98,8 @@ Halle-Wittenberg, Germany*
     Mocle A., Luchetti A., Jung J.H., Mocle A.J., Frankland P.W.,
     Josselyn S.A. (2026) Temporally-gated offline engram ensemble
     reverberation in the lateral amygdala is required for fear memory
-    consolidation. Accepted at Proceedings of the National Academy of
-    Sciences.  
+    consolidation. Accepted at *Proceedings of the National Academy of
+    Sciences*.  
     **Role:** Analyzed behavioural data and applied machine learning
     techniques to calcium imaging datasets; contributed to manuscript
     writing and revision. **Contribution:** 11–20%
