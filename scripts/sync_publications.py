@@ -28,12 +28,23 @@ def sync_publications():
                 break
         
         if recording:
-            stripped_line = line.lstrip()
+            stripped = line.lstrip()
             
-            if len(stripped_line.strip()) > 0:
-                pub_content.append(stripped_line.rstrip() + "\n\n")
+            if stripped and stripped[0].isdigit() and ". " in stripped[:4]:
+                parts = stripped.split(". ", 1)
+                num = parts[0]
+                content = parts[1] if len(parts) > 1 else ""
+                
+                pub_content.append(f"\n\n{num}. {content.rstrip()}")
+            
+            elif "Role:" in stripped or "Contribution:" in stripped:
+                pub_content.append(f"\n{stripped.rstrip()}")
+            
+            elif stripped.strip():
+                pub_content.append(f" {stripped.strip()}") 
+            
             else:
-                pub_content.append("\n")
+                continue
 
     if not pub_content:
         return
