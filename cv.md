@@ -4,17 +4,16 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 
-<div style="max-width: 900px; margin: 0 auto;">
-    <iframe 
-        src="{{ site.baseurl }}/files/Sofiya_CV.pdf" 
+<div style="max-width: 1000px; margin: 0 auto; background: #fff;">
+    <object 
+        data="{{ site.baseurl }}/files/Sofiya_CV.pdf" 
+        type="application/pdf" 
         width="100%" 
-        height="1100px" 
-        style="border: 1px solid #ddd; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    </iframe>
-    
-    <p style="text-align: center; margin-top: 20px;">
-        <a href="{{ site.baseurl }}/files/Sofiya_CV.pdf" target="_blank" style="text-decoration: none; font-weight: bold; color: #007bff;">
-            View PDF in Fullscreen ↗
-        </a>
-    </p>
+        height="1200px"
+        style="border: none;">
+        
+        <p>It appears your browser doesn't support embedded PDFs. 
+           <a href="{{ site.baseurl }}/files/Sofiya_CV.pdf">Click here to download the PDF.</a>
+        </p>
+    </object>
 </div>
