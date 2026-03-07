@@ -3,7 +3,7 @@ name: Convert CV to Markdown
 on:
   push:
     paths:
-      - 'Sofiya_CV.tex'
+      - 'Sofiya_CV.tex' # This triggers the run
   workflow_dispatch: 
 
 jobs:
@@ -18,24 +18,18 @@ jobs:
 
       - name: Convert LaTeX to Markdown
         run: |
-          # 1. Create the Header (Front Matter)
-          # Note: We use the new 'cv_layout' to control the width
           echo "---" > cv.md
-          echo "layout: cv_layout" >> cv.md
+          echo "layout: page" >> cv.md
           echo "title: Curriculum Vitae" >> cv.md
           echo "permalink: /cv/" >> cv.md
           echo "---" >> cv.md
-          echo "" >> cv.md
-          
-          # 2. Convert the content
-          # 'gfm' is much cleaner than 'markdown_strict'
-          pandoc Sofiya_CV.tex --from latex+raw_tex --to gfm --wrap=none >> cv.md
+          # CHANGED BELOW: Using Sofiya_CV.tex instead of cv.tex
+          pandoc Sofiya_CV.tex -f latex -t markdown_strict >> cv.md
 
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add cv.md
-          # The '|| exit 0' prevents the action from failing if there are no changes
-          git commit -m "Auto-update CV from LaTeX via Pandoc" || exit 0
+          git commit -m "Auto-update CV from LaTeX" || exit 0
           git push
