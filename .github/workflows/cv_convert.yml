@@ -3,7 +3,7 @@ name: Convert CV to Markdown
 on:
   push:
     paths:
-      - 'Sofiya_CV.tex'
+      - 'Sofiya_CV.tex' # This triggers the run
   workflow_dispatch: 
 
 jobs:
@@ -23,7 +23,8 @@ jobs:
           echo "title: Curriculum Vitae" >> cv.md
           echo "permalink: /cv/" >> cv.md
           echo "---" >> cv.md
-          pandoc cv.tex -f latex -t markdown_strict >> cv.md
+          # CHANGED BELOW: Using Sofiya_CV.tex instead of cv.tex
+          pandoc Sofiya_CV.tex -f latex -t markdown_strict >> cv.md
 
       - name: Commit and Push
         run: |
