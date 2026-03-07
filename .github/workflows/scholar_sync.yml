@@ -9,18 +9,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repo
+        uses: actions/checkout@v4
       
       - name: Fetch Scholar Data
-        uses: 7ZBuO4wAAAAJ
+        uses: xf-97/academic-scholar@v1.0
         with:
-          scholar_id: 'YOUR_SCHOLAR_ID_HERE' # Ensure your ID is here!
+          scholar_id: '7ZBuO4wAAAAJ'
           
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # This action saves the file specifically to data/scholar.json
+          mkdir -p data
           git add data/scholar.json
           git commit -m "Update Scholar citations" || exit 0
           git push
