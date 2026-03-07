@@ -29,7 +29,7 @@ jobs:
           
           # 2. Convert the content
           # 'gfm' is much cleaner than 'markdown_strict'
-          pandoc Sofiya_CV.tex -f latex -t gfm --wrap=none >> cv.md
+          pandoc Sofiya_CV.tex --from latex+raw_tex --to gfm --wrap=none >> cv.md
 
       - name: Commit and Push
         run: |
