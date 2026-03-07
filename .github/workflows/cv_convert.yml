@@ -3,7 +3,7 @@ name: Convert CV to Markdown
 on:
   push:
     paths:
-      - 'Sofiya_CV.tex' 
+      - 'Sofiya_CV.tex'
   workflow_dispatch: 
 
 jobs:
@@ -24,14 +24,12 @@ jobs:
           echo "permalink: /cv/" >> cv.md
           echo "---" >> cv.md
           
-          # 1. Open the Centered Container (A4-style width constraint)
-          echo '<div style="max-width: 800px; margin: 40px auto; line-height: 1.6; padding: 40px; border: 1px solid #efefef; background: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">' >> cv.md
+
+          echo '<div style="max-width: 1000px; margin: 40px auto; line-height: 1.8; padding: 40px; border: 1px solid #efefef; background: #fff; color: #333;">' >> cv.md
           echo "" >> cv.md
           
-          # 2. The actual conversion
-          pandoc Sofiya_CV.tex -f latex -t markdown_strict >> cv.md
+          pandoc Sofiya_CV.tex --from latex+raw_tex --to gfm --wrap=preserve >> cv.md
           
-          # 3. Close the Container
           echo "" >> cv.md
           echo '</div>' >> cv.md
 
@@ -40,5 +38,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add cv.md
-          git commit -m "Auto-update CV with centered A4 layout" || exit 0
+          git commit -m "Fixing CV spacing and formatting" || exit 0
           git push
