@@ -13,6 +13,8 @@ author_profile: true
 
 <div style="max-width: 1000px; margin: 0 auto;">
   {% for post in site.publications %}
-    {{ post.content | markdownify }}
+    <div class="publication-content" style="line-height: 1.6; margin-bottom: 20px;">
+      {{ post.content | markdownify }}
+    </div>
   {% endfor %}
 </div>
