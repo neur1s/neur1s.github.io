@@ -3,6 +3,9 @@ layout: page
 title: Curriculum Vitae
 permalink: /cv/
 ---
+
+<div style="max-width: 1000px; margin: 0 auto;">
+
 **Sofiya Zbaranska**  
 *Physiology Ph.D. Student*  
 University of Toronto & The Hospital for Sick Children  
@@ -402,3 +405,5 @@ Halle-Wittenberg, Germany*
 -   Research Integrity Course, *Epigeum*
 
 -   Biology Meets Programming (Bioinformatics), *UC San Diego*
+
+</div>
