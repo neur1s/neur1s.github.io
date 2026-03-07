@@ -4,7 +4,10 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 
-<div style="max-width: 1000px; margin: 0 auto;">
+<style>
+  .wrapper, .post, .page, .page-content { max-width: 1000px !important; margin: 0 auto !important; }
+</style>
+
 
 **Sofiya Zbaranska**  
 *Physiology Ph.D. Student*  
@@ -405,5 +408,3 @@ Halle-Wittenberg, Germany*
 -   Research Integrity Course, *Epigeum*
 
 -   Biology Meets Programming (Bioinformatics), *UC San Diego*
-
-</div>
