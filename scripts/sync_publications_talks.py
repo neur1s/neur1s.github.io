@@ -67,7 +67,10 @@ def sync_talks():
     talks_folder = '_talks'
     output_file = os.path.join(talks_folder, 'talks_list.md')
 
-    if not os.path.exists(cv_path): return
+    print(f"--- Debugging sync_talks ---")
+    if not os.path.exists(cv_path): 
+        print(f"DEBUG ERROR: {cv_path} not found.")
+        return
 
     with open(cv_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
@@ -75,18 +78,25 @@ def sync_talks():
     talks_content = []
     recording = False
 
-    for line in lines:
+    for i, line in enumerate(lines):
         clean_line = line.strip()
         lower_line = clean_line.lower()
 
+        # Debug specific lines that might be headers
+        if '#' in clean_line or len(clean_line) < 45 and len(clean_line) > 3:
+            # This will print small lines to the log so we can see what the headings look like
+            pass 
+
         # START at "Public Talks"
         if 'public talks' in lower_line and len(clean_line) < 40:
+            print(f"DEBUG: MATCHED START MARKER 'Public Talks' at line {i}: {clean_line}")
             recording = True
             continue
         
         # STOP at "Conference Presentations" or "Teaching"
         if recording and len(clean_line) < 40:
             if 'conference presentations' in lower_line or 'teaching' in lower_line:
+                print(f"DEBUG: MATCHED STOP MARKER at line {i}: {clean_line}")
                 recording = False
                 break
 
@@ -94,14 +104,11 @@ def sync_talks():
             stripped = line.lstrip()
             if not stripped.strip(): continue
 
-            # YouTube Detection & Transformation
-            # Finds youtube.com/watch?v=ID or youtu.be/ID
             yt_match = re.search(r'(https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([\w-]+))', stripped)
             
             if yt_match:
                 full_url = yt_match.group(1)
                 video_id = yt_match.group(2)
-                # Create a clickable thumbnail "badge"
                 yt_insert = (
                     f'\n<div style="margin: 10px 0;">'
                     f'<a href="{full_url}" target="_blank" style="text-decoration:none;">'
@@ -109,25 +116,30 @@ def sync_talks():
                     f'<div style="font-size:0.8em; color:#e62117; font-weight:bold;">▶ Watch on YouTube</div>'
                     f'</a></div>\n'
                 )
-                # Remove the raw URL from the text and add the insert
                 stripped = stripped.replace(full_url, "").strip()
                 talks_content.append(f"\n{stripped}{yt_insert}")
             else:
-                # Handle standard lines (like we did for publications)
-                if stripped[0].isdigit() and ". " in stripped[:4]:
+                if stripped and stripped[0].isdigit() and ". " in stripped[:4]:
                     talks_content.append(f"\n\n{stripped}")
                 else:
                     talks_content.append(f" {stripped}")
 
-    if not talks_content: return
+    if not talks_content:
+        print("DEBUG ERROR: No talks content captured. Did not find start/stop markers or section was empty.")
+        # If it failed, let's print a chunk of the CV to see what's there
+        print("DEBUG: Showing lines 100-200 of cv.md for inspection:")
+        print("".join(lines[100:200]))
+        return
 
-    if not os.path.exists(talks_folder): os.makedirs(talks_folder)
+    if not os.path.exists(talks_folder): 
+        print(f"DEBUG: Creating folder {talks_folder}")
+        os.makedirs(talks_folder)
 
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("---\ntitle: \"Talks\"\ncollection: talks\npermalink: /talks/\n---\n\n")
         f.writelines(talks_content)
+    print(f"DEBUG: Successfully created {output_file}")
 
-# Make sure to call BOTH functions at the bottom
 if __name__ == "__main__":
     sync_publications()
     sync_talks()
