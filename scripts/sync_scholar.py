@@ -1,8 +1,11 @@
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
 import yaml
 import os
 
 def sync_scholar():
+    pg = ProxyGenerator()
+    pg.FreeProxies() 
+    scholarly.use_proxy(pg)
     scholar_id = '7ZBuO4wAAAAJ'
     
     print(f"Fetching data for scholar ID: {scholar_id}...")
