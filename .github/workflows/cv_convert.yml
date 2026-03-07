@@ -35,5 +35,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add cv.md
           git add _publications/
+          git add -f _talks/
           git commit -m "Auto-update CV and Publications" || exit 0
           git push
