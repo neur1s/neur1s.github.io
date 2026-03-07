@@ -9,14 +9,23 @@ author_profile: false
   <img src="/images/profile_pic.png" style="width: 180px; border-radius: 50%; margin-bottom: 15px;" alt="Sofiya Zbaranska">
   
   <h1>Sofiya Zbaranska</h1>
-  <p><strong>PhD candidate in Neuroscience | University of Toronto</strong></p>
+  <p><strong>Neuroscience PhD Candidate @ University of Toronto</strong></p>
+  <div style="font-size: 1.5em; margin-bottom: 15px;">🇺🇦</div>
 
-  <div style="font-size: 1.5em; margin-top: 10px;">
-    <a href="mailto:your.email@utoronto.ca" style="margin: 0 10px;"><i class="fas fa-fw fa-envelope"></i></a>
-    <a href="https://github.com/neur1s" style="margin: 0 10px;"><i class="fab fa-fw fa-github"></i></a>
-    <a href="https://twitter.com/neur1s" style="margin: 0 10px;"><i class="fab fa-fw fa-twitter"></i></a>
-    <a href="https://scholar.google.com/citations?user=7ZBuO4wAAAAJ&hl=en" style="margin: 0 10px;"><i class="ai ai-google-scholar"></i></a>
-  </div>
+  <div style="font-size: 1.8em; margin-top: 10px;">
+  <a href="mailto:your.email@utoronto.ca" style="margin: 0 12px; color: #9b7c75; text-decoration: none;">
+    <i class="fas fa-fw fa-envelope"></i>
+  </a>
+  <a href="https://github.com/neur1s" style="margin: 0 12px; color: #9b7c75; text-decoration: none;">
+    <i class="fab fa-fw fa-github"></i>
+  </a>
+  <a href="https://twitter.com/neur1s" style="margin: 0 12px; color: #9b7c75; text-decoration: none;">
+    <i class="fab fa-fw fa-twitter"></i>
+  </a>
+  <a href="https://scholar.google.com/citations?user=7ZBuO4wAAAAJ&hl=en" style="margin: 0 12px; color: #9b7c75; text-decoration: none;">
+    <i class="ai ai-google-scholar"></i>
+  </a>
+</div>
 </div>
 
 ---
