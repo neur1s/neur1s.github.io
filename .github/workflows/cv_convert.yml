@@ -19,20 +19,11 @@ jobs:
       - name: Convert LaTeX to Markdown
         run: |
           echo "---" > cv.md
-          echo "layout: page" >> cv.md
+          echo "layout: cv_layout" >> cv.md
           echo "title: Curriculum Vitae" >> cv.md
           echo "permalink: /cv/" >> cv.md
+          echo "author_profile: true" >> cv.md 
           echo "---" >> cv.md
-          echo "" >> cv.md
-          
-          echo '<style>
-            #main, .page, .page__inner-wrap, .archive { 
-              max-width: 1000px !important; 
-              margin-left: auto !important; 
-              margin-right: auto !important; 
-              padding-right: 0 !important;
-            }
-          </style>' >> cv.md
           echo "" >> cv.md
           
           pandoc Sofiya_CV.tex -f latex -t markdown_strict >> cv.md
