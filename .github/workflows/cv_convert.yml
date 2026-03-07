@@ -34,5 +34,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add cv.md
-          git commit -m "Auto-update CV: constrained for academicpages" || exit 0
+          git add _publications/
+          git commit -m "Auto-update CV and Publications" || exit 0
           git push
