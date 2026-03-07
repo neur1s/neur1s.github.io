@@ -1,5 +1,6 @@
 import os
 import shutil
+import re
 
 def sync_publications():
     cv_path = 'cv.md' 
