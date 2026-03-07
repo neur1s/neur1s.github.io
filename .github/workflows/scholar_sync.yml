@@ -1,0 +1,24 @@
+name: Sync Google Scholar
+
+on:
+  schedule:
+    - cron: '0 0 * * 4' # Runs every Thursday at midnight
+  workflow_dispatch: # Allows you to run it manually
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch Scholar Data
+        uses: gsculptor/google-scholar-scraper-action@v1
+        with:
+          scholar_id: '7ZBuO4wAAAAJ&hl=en' # Paste your ID here
+          out_path: 'data/scholar.json' # Where the data will be saved
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/scholar.json
+          git commit -m "Update Scholar citations" || exit 0
+          git push
