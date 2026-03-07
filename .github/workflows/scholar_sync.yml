@@ -12,16 +12,43 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
       
-      - name: Fetch Scholar Data
-        uses: xf-97/academic-scholar@v1.0
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          scholar_id: '7ZBuO4wAAAAJ'
-          
-      - name: Commit changes
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install scholarly
+
+      - name: Fetch Scholar Data
+        run: |
+          python -c "
+          from scholarly import scholarly
+          import json
+          import os
+          author = scholarly.search_author_id('7ZBuO4wAAAAJ')
+          author = scholarly.fill(author, sections=['publications'])
+          data = {
+              'total_citations': author.get('citedby', 0),
+              'h_index': author.get('hindex', 0),
+              'publications': [
+                  {
+                      'title': p['bib'].get('title', 'N/A'),
+                      'year': p['bib'].get('pub_year', 'N/A'),
+                      'venue': p['bib'].get('venue', 'N/A'),
+                      'author': p['bib'].get('author', 'N/A')
+                  } for p in author['publications']
+              ]
+          }
+          os.makedirs('_data', exist_ok=True)
+          with open('_data/scholar.json', 'w') as f:
+              json.dump(data, f, indent=4)
+          "
+
+      - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          mkdir -p data
-          git add data/scholar.json
-          git commit -m "Update Scholar citations" || exit 0
+          git add _data/scholar.json
+          git commit -m "Update Scholar Data" || exit 0
           git push
