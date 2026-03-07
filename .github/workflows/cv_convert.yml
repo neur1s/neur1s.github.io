@@ -3,7 +3,7 @@ name: Convert CV to Markdown
 on:
   push:
     paths:
-      - 'Sofiya_CV.tex'
+      - 'Sofiya_CV.tex' 
   workflow_dispatch: 
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
 
       - name: Convert LaTeX to Markdown
         run: |
-          # 1. Write the Jekyll Front Matter
+
           echo "---" > cv.md
           echo "layout: page" >> cv.md
           echo "title: Curriculum Vitae" >> cv.md
@@ -26,21 +26,19 @@ jobs:
           echo "---" >> cv.md
           echo "" >> cv.md
           
-          # 2. Add the opening container tag
-          echo '<div style="max-width: 1000px; margin: 0 auto;">' >> cv.md
+          # inject CSS to constrain the width to 1000px
+          echo '<style>' >> cv.md
+          echo '  .wrapper, .post, .page, .page-content { max-width: 1000px !important; margin: 0 auto !important; }' >> cv.md
+          echo '</style>' >> cv.md
           echo "" >> cv.md
-          
-          # 3. Run your WORKING pandoc command
+  
+          echo "" >> cv.md
           pandoc Sofiya_CV.tex -f latex -t markdown_strict >> cv.md
-          
-          # 4. Add the closing container tag
-          echo "" >> cv.md
-          echo '</div>' >> cv.md
 
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add cv.md
-          git commit -m "Auto-update CV with 1000px constraint" || exit 0
+          git commit -m "Auto-update CV with width constraint" || exit 0
           git push
