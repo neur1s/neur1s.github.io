@@ -27,7 +27,7 @@ jobs:
           echo "" >> cv.md
           
           pandoc Sofiya_CV.tex -f latex -t markdown_strict >> cv.md
-          python scripts/sync_publications.py
+          python scripts/sync_publications_talks.py
 
       - name: Commit and Push
         run: |
