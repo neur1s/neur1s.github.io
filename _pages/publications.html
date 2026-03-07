@@ -11,9 +11,9 @@ author_profile: true
 
 {% include base_path %}
 
-<div style="max-width: 1000px; margin: 0 auto;">
+<div style="max-width: 1000px; margin: 40px auto; line-height: 1.6;">
   {% for post in site.publications %}
-    <div class="publication-content" style="line-height: 1.6; margin-bottom: 20px;">
+    <div class="publication-item">
       {{ post.content | markdownify }}
     </div>
   {% endfor %}
