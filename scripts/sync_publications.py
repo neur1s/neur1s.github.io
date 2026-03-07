@@ -19,27 +19,26 @@ def sync_publications():
 
     for line in lines:
         clean_line = line.strip().lower()
-        # Look for the section start
         if 'peer-reviewed' in clean_line and ('#' in line or '**' in line):
             recording = True
             continue
-        # Look for the section end
         if recording and ('in preparation' in clean_line or 'talks' in clean_line) and ('#' in line or '**' in line):
             recording = False
             break
         if recording:
-            pub_content.append(line)
+            if len(line.strip()) > 0:
+                pub_content.append(line)
+            else:
+                pub_content.append("\n") 
 
     if not pub_content:
         print("ERROR: Could not find Peer-reviewed section in cv.md.")
         return
 
-    # Create/Clean the folder
     if os.path.exists(pub_folder):
         shutil.rmtree(pub_folder)
     os.makedirs(pub_folder)
 
-    # Write the new file
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("---\n")
         f.write("title: \"Peer-reviewed Publications\"\n")
