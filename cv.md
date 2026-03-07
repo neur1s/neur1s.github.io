@@ -20,37 +20,6 @@ I am a third-year Ph.D. student co-supervised by Drs. Josselyn and Laschowski at
 
 # Education
 
-<div class="description">
-
-**Ph.D. in Physiology**  
-*Physiology Department, Temerty Faculty of Medicine, University of Toronto, Toronto, Canada*
-
-- Ph.D. thesis project on engram ensembles supporting social memory, supervised by Dr. Sheena Josselyn at SickKids Research Institute
-
-- Research project on brain-inspired memory mechanism for neural networks based on emotional valence, supervised by Dr. Brokoslaw Laschowski at University Health Network
-
-- Project on engram neurons involved in social empathy, a collaboration with Dr. Armen Saghatelyan at University of Ottawa
-
-- **Average Grade:** A+
-
-**M.Sc. in Molecular Biosciences (Neuroscience major)**  
-*Faculty of Biosciences, Heidelberg University, Heidelberg, Germany*
-
-- Master’s thesis on newly identified neuronal projections involved in attention modulation, under the supervision of Dr. Hannah Monyer
-
-- **Average Grade:** 1.0 (98-100%)
-
-- Student representative of the Neuroscience major
-
-**B.Sc. in Biology**  
-*Faculty of Natural Sciences I, Martin Luther University Halle-Wittenberg, Germany*
-
-- Thesis on differential odorant receptor expression in male and female desert locusts, supervised by Dr. Krieger
-
-- **Average Grade:** 1.5 ($\geq$ 90%)
-
-</div>
-
 # Honours and Awards
 
 - Restracomp PhD Fellowship at the Hospital for Sick Children (CAD 35,000/year, competitive process)
