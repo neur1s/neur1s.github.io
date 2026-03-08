@@ -145,13 +145,18 @@ Halle-Wittenberg, Germany*
     different neuronal populations using machine learning classifiers.
     **Contribution:** 10%
 
-# Peer Review Activities
+# Service
 
--   **2026/02 – 2026/03**&nbsp;&nbsp;&nbsp; *International Conference on
-    Learning Representations*: reviewed 2 manuscripts.
+-   **Since 2023**&nbsp;&nbsp;&nbsp; Peer reviewer for *Philosophical
+    Transactions of the Royal Society B* (1 manuscript), *International
+    Conference on Learning Representations* (2 manuscripts)
 
--   **2023/12**&nbsp;&nbsp;&nbsp; *Philosophical Transactions of the
-    Royal Society B*: reviewed 1 manuscript.
+-   **2025/02-2025/05**&nbsp;&nbsp;&nbsp; **Search Committee Member**,
+    The Hospital for Sick Children  
+    Represented graduate student perspective on the search committee for
+    recruiting a Principal Investigator in Molecular and Cellular Basis
+    of Cognition. Contributed to application review, candidate
+    interviews, and scoring.
 
 # Public Talks
 
@@ -167,9 +172,8 @@ Halle-Wittenberg, Germany*
 
 -   **2025/10/13**&nbsp;&nbsp;&nbsp; *The Factory of Memories: Taming
     the Engram* (watch on
-    [**Youtube**](https://youtu.be/ETVgqyQwZVM?si=o-6VG4Vc8KOKGTGn)).
-    Invited by the Faculty of Applied Sciences at Ukrainian Catholic
-    University.
+    [**Youtube**](https://www.youtube.com/watch?v=ETVgqyQwZVM)). Invited
+    by the Faculty of Applied Sciences at Ukrainian Catholic University.
 
 # Conference Presentations
 
@@ -318,13 +322,6 @@ Halle-Wittenberg, Germany*
     Health Research Day 2026 by contrubuting to speaker recruitment,
     planning of trainee-focused events such as workshops and social
     gatherings.
-
--   **2025/02-2025/05**&nbsp;&nbsp;&nbsp; **Search Committee Member**,
-    The Hospital for Sick Children  
-    Represented graduate student perspective on the search committee for
-    recruiting a Scientist/Senior Scientist in Molecular and Cellular
-    Basis of Cognition. Contributed to application review, candidate
-    interviews, and scoring.
 
 -   **2025/05 and 2024/05**&nbsp;&nbsp;&nbsp; **Volunteer**, Science
     Rendezvous, St. George Campus, University of Toronto  
