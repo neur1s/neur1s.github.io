@@ -73,7 +73,7 @@ def sync_talks():
         lines = f.readlines()
 
     talks_content = []
-    current_video_html = "" # Buffer to hold the video until the line is finished
+    current_video_html = "" 
     recording = False
 
     for line in lines:
@@ -95,10 +95,10 @@ def sync_talks():
             stripped = line.lstrip()
             if not stripped.strip(): continue
 
-            is_new_talk = stripped[0].isdigit() and ". " in stripped[:4]
+            is_new_bullet = re.match(r'^(\*|-|\d+\.)\s', stripped)
 
-            if is_new_talk and current_video_html:
-                talks_content.append(current_video_html)
+            if is_new_bullet and current_video_html:
+                talks_content.append(current_video_html + "\n")
                 current_video_html = ""
 
             yt_match = re.search(r'(https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([\w-]+))', stripped)
@@ -111,17 +111,18 @@ def sync_talks():
                     f'\n<div style="margin: 20px 0;">'
                     f'<a href="{full_url}" target="_blank">'
                     f'<img src="https://img.youtube.com/vi/{video_id}/maxresdefault.jpg" '
-                    f'style="width:400px; border-radius:12px; box-shadow:0 6px 15px rgba(0,0,0,0.3);">'
+                    f'style="width:400px; border-radius:12px; box-shadow:0 6px 15px rgba(255,255,255,0.1); border: 1px solid #333;">'
                     f'</a></div>\n'
                 )
-            
+                
                 cleaned_text = stripped.replace(full_url, "").strip()
                 cleaned_text = re.sub(r'\[(.*?)\]\(\s*\)', r'\1', cleaned_text)
                 
-                talks_content.append(f"{cleaned_text}")
+                prefix = "\n" if is_new_bullet else ""
+                talks_content.append(f"{prefix}{cleaned_text}")
             else:
-                if is_new_talk:
-                    talks_content.append(f"\n\n{stripped.strip()}")
+                if is_new_bullet:
+                    talks_content.append(f"\n{stripped.strip()}")
                 else:
                     talks_content.append(f" {stripped.strip()}")
 
