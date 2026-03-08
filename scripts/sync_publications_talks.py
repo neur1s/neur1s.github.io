@@ -116,7 +116,8 @@ def sync_talks():
                 )
             
                 line_text = stripped.strip()
-                line_text = re.sub(r'([^\s])(\**)(YouTube)', r'\1 \2\3', line_text, flags=re.IGNORECASE)
+                line_text = re.sub(r'([^\s\*\(\[])(\**\[)', r'\1 \2', line_text, flags=re.IGNORECASE)
+                line_text = re.sub(r'([^\s\*\(\[])(YouTube)', r'\1 \2', line_text, flags=re.IGNORECASE)
                 
                 prefix = "\n" if is_new_bullet else ""
                 talks_content.append(f"{prefix}{line_text}")
