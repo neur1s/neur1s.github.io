@@ -27,7 +27,7 @@ jobs:
           echo "" >> cv.md
           
           # finds \item[Content] and replaces it with \item content
-          sed -i 's/\\item\[\(.*\)\]/\\item \1 \ \ \ /g' Sofiya_CV.tex
+          sed -i 's/\\item\[\(.*\)\]/\\item \1\&nbsp;\&nbsp;\&nbsp;/g' Sofiya_CV.tex
           pandoc Sofiya_CV.tex -f latex -t markdown_strict >> cv.md
           python scripts/sync_publications_talks.py
 
