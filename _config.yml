@@ -359,3 +359,11 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Footer Settings
+footer:
+  links: []
+
+# Feed Settings
+atom_feed:
+  hide: true
