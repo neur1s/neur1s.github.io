@@ -13,12 +13,12 @@ author_profile: false
     <p>Neuroscience PhD Candidate @ University of Toronto</p>
     <div style="font-size: 1.5em; margin-bottom: 15px;">🇺🇦</div>
     <div style="font-size: 1.8em; margin-top: 10px;">
-      <a href="mailto:sofiya.zbaranska@mail.utoronto.ca" style="margin: 0 8px; color: #000000; text-decoration: none; font-size: 0.85em; "><i class="fas fa-fw fa-envelope"></i></a>
-      <a href="https://scholar.google.ca/citations?user=7ZBuO4wAAAAJ&hl=en" style="margin: 0 11px; color: #000000; text-decoration: none;"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/neur1s" style="margin: 0 10px; color: #000000; text-decoration: none;"><i class="fab fa-fw fa-github"></i></a>
-      <a href="https://twitter.com/neur1s" style="margin: 0 10px; color: #000000; text-decoration: none;"><i class="fab fa-fw fa-twitter"></i></a>
-      <a href="https://bsky.app/profile/neur1s.bsky.social" style="margin: 0 10px; color: #000000; text-decoration: none; font-size: 0.85em;"><i class="fab fa-fw fa-bluesky"></i></a>
-    </div>
+  <a href="mailto:sofiya.zbaranska@mail.utoronto.ca" style="margin: 0 8px; color: inherit; text-decoration: none; font-size: 0.85em;"><i class="fas fa-fw fa-envelope"></i></a>
+  <a href="https://scholar.google.ca/citations?user=7ZBuO4wAAAAJ&hl=en" style="margin: 0 11px; color: inherit; text-decoration: none;"><i class="ai ai-google-scholar"></i></a>
+  <a href="https://github.com/neur1s" style="margin: 0 10px; color: inherit; text-decoration: none;"><i class="fab fa-fw fa-github"></i></a>
+  <a href="https://twitter.com/neur1s" style="margin: 0 10px; color: inherit; text-decoration: none;"><i class="fab fa-fw fa-twitter"></i></a>
+  <a href="https://bsky.app/profile/neur1s.bsky.social" style="margin: 0 10px; color: inherit; text-decoration: none; font-size: 0.85em;"><i class="fab fa-fw fa-bluesky"></i></a>
+</div>
   </div>
 
   <div style="font-size: 1em; line-height: 1.6; text-align: justify;">
