@@ -26,7 +26,7 @@ and supporting those affected by the war.
 
 # Education
 
-**2023/09 – ongoing** **Ph.D. in Physiology**  
+**2023/09 – ongoing**&nbsp;&nbsp;&nbsp; **Ph.D. in Physiology**  
 *Physiology Department, Temerty Faculty of Medicine, University of
 Toronto, Toronto, Canada*
 
@@ -42,8 +42,8 @@ Toronto, Toronto, Canada*
 
 -   **Average Grade:** A+
 
-**2021/10 – 2023/09** **M.Sc. in Molecular Biosciences (Neuroscience
-major)**  
+**2021/10 – 2023/09**&nbsp;&nbsp;&nbsp; **M.Sc. in Molecular Biosciences
+(Neuroscience major)**  
 *Faculty of Biosciences, Heidelberg University, Heidelberg, Germany*
 
 -   Master’s thesis on newly identified neuronal projections involved in
@@ -53,7 +53,7 @@ major)**
 
 -   Student representative of the Neuroscience major
 
-**2018/10 – 2021/09** **B.Sc. in Biology**  
+**2018/10 – 2021/09**&nbsp;&nbsp;&nbsp; **B.Sc. in Biology**  
 *Faculty of Natural Sciences I, Martin Luther University
 Halle-Wittenberg, Germany*
 
@@ -64,32 +64,34 @@ Halle-Wittenberg, Germany*
 
 # Honours and Awards
 
--   **2025/09 – 2027/09** Restracomp PhD Fellowship at the Hospital for
-    Sick Children (CAD 35,000/year, competitive process)
+-   **2025/09 – 2027/09**&nbsp;&nbsp;&nbsp; Restracomp PhD Fellowship at
+    the Hospital for Sick Children (CAD 35,000/year, competitive
+    process)
 
--   **2025/05** Frontiers in Physiology Best Poster Presentation Award
-    (certificate, competitive process)
+-   **2025/05**&nbsp;&nbsp;&nbsp; Frontiers in Physiology Best Poster
+    Presentation Award (certificate, competitive process)
 
--   **2024/07** BrainAid/IZN Best Thesis Award (certificate and book
-    prize, competitive process)
+-   **2024/07**&nbsp;&nbsp;&nbsp; BrainAid/IZN Best Thesis Award
+    (certificate and book prize, competitive process)
 
--   **2022/10 – 2023/10** Graduate Scholarship from the Heinrich Böll
-    Foundation for studies at Heidelberg University (EUR 10,892/CAD
-    16,000, competitive process)
+-   **2022/10 – 2023/10**&nbsp;&nbsp;&nbsp; Graduate Scholarship from
+    the Heinrich Böll Foundation for studies at Heidelberg University
+    (EUR 10,892/CAD 16,000, competitive process)
 
--   **2022/8 – 2022/11** Master’s Fellowship at Karolinska Institutet
-    (SEK 48,000/CAD 6,000,  
+-   **2022/8 – 2022/11**&nbsp;&nbsp;&nbsp; Master’s Fellowship at
+    Karolinska Institutet (SEK 48,000/CAD 6,000,  
     non-competitive, through Karolinska Institute research grants)
 
--   **2019/10 – 2020/10** German Scholarship for Talented and Oustanding
-    Students at Martin Luther University Halle-Wittenberg (EUR 3,600/CAD
-    5,400, competitive process)
+-   **2019/10 – 2020/10**&nbsp;&nbsp;&nbsp; German Scholarship for
+    Talented and Oustanding Students at Martin Luther University
+    Halle-Wittenberg (EUR 3,600/CAD 5,400, competitive process)
 
--   **2015/05** Honours List with Distinction, High School No. 329
-    ‘Logos’, Kyiv, Ukraine
+-   **2015/05**&nbsp;&nbsp;&nbsp; Honours List with Distinction, High
+    School No. 329 ‘Logos’, Kyiv, Ukraine
 
--   **2014/06** Second Place in the District Level English Olympiad
-    (High School No. 329 ‘Logos’, Kyiv, Ukraine, competitive process)
+-   **2014/06**&nbsp;&nbsp;&nbsp; Second Place in the District Level
+    English Olympiad (High School No. 329 ‘Logos’, Kyiv, Ukraine,
+    competitive process)
 
 # Publications
 
@@ -145,25 +147,27 @@ Halle-Wittenberg, Germany*
 
 # Peer Review Activities
 
--   **2026/02 – 2026/03** *International Conference on Learning
-    Representations*: reviewed 2 manuscripts.
+-   **2026/02 – 2026/03**&nbsp;&nbsp;&nbsp; *International Conference on
+    Learning Representations*: reviewed 2 manuscripts.
 
--   **2023/12** *Philosophical Transactions of the Royal Society B*:
-    reviewed 1 manuscript.
+-   **2023/12**&nbsp;&nbsp;&nbsp; *Philosophical Transactions of the
+    Royal Society B*: reviewed 1 manuscript.
 
 # Public Talks
 
--   **2026/02/05** *Modeling Memory Processes in the Brain Using
-    Transformers* (The Hospital for Sick Children, Toronto, ON Canada).
-    Invited by AI4SickKids Reading Group orginizing committee.
+-   **2026/02/05**&nbsp;&nbsp;&nbsp; *Modeling Memory Processes in the
+    Brain Using Transformers* (The Hospital for Sick Children, Toronto,
+    ON Canada). Invited by AI4SickKids Reading Group orginizing
+    committee.
 
--   **2025/11/27** *Telling Friends from Foes: Contributions of the
-    Medial Amygdala to Social Memory* (The Hospital for Sick Children,
-    Toronto, ON Canada). Invited by the Neuroscience and Mental Health
-    Program Council at the Hospital for Sick Children.
+-   **2025/11/27**&nbsp;&nbsp;&nbsp; *Telling Friends from Foes:
+    Contributions of the Medial Amygdala to Social Memory* (The Hospital
+    for Sick Children, Toronto, ON Canada). Invited by the Neuroscience
+    and Mental Health Program Council at the Hospital for Sick Children.
 
--   **2025/10/13** *The Factory of Memories: Taming the Engram* (watch
-    on [**Youtube**](https://youtu.be/ETVgqyQwZVM?si=o-6VG4Vc8KOKGTGn)).
+-   **2025/10/13**&nbsp;&nbsp;&nbsp; *The Factory of Memories: Taming
+    the Engram* (watch on
+    [**Youtube**](https://youtu.be/ETVgqyQwZVM?si=o-6VG4Vc8KOKGTGn)).
     Invited by the Faculty of Applied Sciences at Ukrainian Catholic
     University.
 
@@ -206,8 +210,8 @@ Halle-Wittenberg, Germany*
 
 # Research Experience
 
--   **08/2025 – ongoing** **Collaborative Computational Research Project
-    with Dr. Laschowski**  
+-   **08/2025 – ongoing**&nbsp;&nbsp;&nbsp; **Collaborative
+    Computational Research Project with Dr. Laschowski**  
     *University Health Network, Toronto, Canada*  
     Designed and implemented a transformer model trained on a synthetic
     episodic memory task. Incorporated emotional valence levels to
@@ -217,7 +221,8 @@ Halle-Wittenberg, Germany*
     preparation for submission to *IEEE Transactions on Neural Networks
     and Learning Systems*.
 
--   **09/2023 – ongoing** **Ph.D. Research Project in Josselyn lab**  
+-   **09/2023 – ongoing**&nbsp;&nbsp;&nbsp; **Ph.D. Research Project in
+    Josselyn lab**  
     *The Hospital for Sick Children, Toronto, Canada*  
     Designed and am leading a project focusing on the role of the medial
     amygdala in social memory. An additional branch of my project
@@ -227,27 +232,31 @@ Halle-Wittenberg, Germany*
     behavioural assays, in vivo calcium imaging, and advanced data
     analysis.
 
--   **03/2023 – 09/2023** **Master’s Thesis in Monyer lab**  
+-   **03/2023 – 09/2023**&nbsp;&nbsp;&nbsp; **Master’s Thesis in Monyer
+    lab**  
     *German Cancer Research Center, Heidelberg, Germany*  
     Performed electrophysiological recordings in freely behaving mice to
     study the role of a newly dicovered class of projections from the
     medial septum to the hippocampus (by testing their involvement in
     attention modulation).
 
--   **12/2022 – 02/2023** **Lab Rotation in Liu lab**  
+-   **12/2022 – 02/2023**&nbsp;&nbsp;&nbsp; **Lab Rotation in Liu
+    lab**  
     *German Cancer Research Center, Heidelberg, Germany*  
     Studied the role of the chromatin remodeller CHD7 in the hippocampal
     neurogenesis using immunohistochemistry and single-cell RNA
     sequencing.
 
--   **08/2022 – 11/2022** **Research Internship in Ehrsson lab**  
+-   **08/2022 – 11/2022**&nbsp;&nbsp;&nbsp; **Research Internship in
+    Ehrsson lab**  
     *Karolinska Institute, Stockholm, Sweden*  
     Conducted a research project about the link between body ownership
     and formation of false memories using virtual reality in humans.
     This encompassed behavioural experiments with human volunteers, data
     collection, and analysis.
 
--   **05/2022 – 07/2022** **Lab Rotation in Kuner lab**  
+-   **05/2022 – 07/2022**&nbsp;&nbsp;&nbsp; **Lab Rotation in Kuner
+    lab**  
     *Interdisciplinary Center for Neuroscience, Heidelberg University,
     Germany*  
     Investigated the influence of isoflurane anesthesia on the cerebral
@@ -256,7 +265,8 @@ Halle-Wittenberg, Germany*
     data collection and analysis of longitudinal 2-photon fluorescence
     data.
 
--   **02/2022 – 04/2022** **Lab Rotation in Monyer lab**  
+-   **02/2022 – 04/2022**&nbsp;&nbsp;&nbsp; **Lab Rotation in Monyer
+    lab**  
     *German Cancer Research Center, Heidelberg, Germany*  
     Examined the mechanisms of environment representation and
     association formation using in vivo electrophysiological recordings
@@ -264,7 +274,8 @@ Halle-Wittenberg, Germany*
     to the publication by [Huang et al. (2023)
     *Neuron*](https://doi.org/10.1016/j.neuron.2023.06.020).
 
--   **10/2021 – 01/2022** **Lab Rotation in Bading lab**  
+-   **10/2021 – 01/2022**&nbsp;&nbsp;&nbsp; **Lab Rotation in Bading
+    lab**  
     *Interdisciplinary Center for Neuroscience, Heidelberg University,
     Germany*  
     Performed whole-cell patch clamp recordings of humanized mouse
@@ -272,15 +283,16 @@ Halle-Wittenberg, Germany*
     the publication by [Pruunsild et al. (2023) *J Biol
     Chem.*](https://doi.org/10.1016/j.jbc.2023.104671)
 
--   **03/2021 – 09/2021** **Bachelor’s Thesis project in Krieger lab**  
+-   **03/2021 – 09/2021**&nbsp;&nbsp;&nbsp; **Bachelor’s Thesis project
+    in Krieger lab**  
     *Department of Zoology, Martin Luther University Halle-Wittenberg,
     Germany*  
     Extracted mRNA from desert locust antennae, performed reverse
     transcription, and established a quantitative real-time PCR protocol
     to assess sex- and stage-specific expression of odorant receptors.
 
--   **06/2020 – 08/2021** **Undergraduate Research Assistant in Bonas
-    lab**  
+-   **06/2020 – 08/2021**&nbsp;&nbsp;&nbsp; **Undergraduate Research
+    Assistant in Bonas lab**  
     *Department of Plant Genetics, Martin Luther University
     Halle-Wittenberg, Germany*  
     Research focus on plant pathogenic bacteria. Tasks: cloning (Golden
@@ -292,49 +304,49 @@ Halle-Wittenberg, Germany*
 
 ## Within the University
 
--   **2026/02-2026/09** **AI4SickKids Reading Group Organizer**, The
-    Hospital for Sick Children  
+-   **2026/02-2026/09**&nbsp;&nbsp;&nbsp; **AI4SickKids Reading Group
+    Organizer**, The Hospital for Sick Children  
     Contributing to the organization of the AI4SickKids Reading Group
     aimed at disseminating AI- and ML-related research to SickKids
     community. Involved in speaker recruitment, scheduling, and event
     promotion. Delivered a talk on modelling memory in the brain using
     transformers.
 
--   **2026/01-ongoing** **Neurosciences & Mental Health Trainee Council
-    Member**, The Hospital for Sick Children  
+-   **2026/01-ongoing**&nbsp;&nbsp;&nbsp; **Neurosciences & Mental
+    Health Trainee Council Member**, The Hospital for Sick Children  
     Participating in the organization of the Neurosciences & Mental
     Health Research Day 2026 by contrubuting to speaker recruitment,
     planning of trainee-focused events such as workshops and social
     gatherings.
 
--   **2025/02-2025/05** **Search Committee Member**, The Hospital for
-    Sick Children  
+-   **2025/02-2025/05**&nbsp;&nbsp;&nbsp; **Search Committee Member**,
+    The Hospital for Sick Children  
     Represented graduate student perspective on the search committee for
     recruiting a Scientist/Senior Scientist in Molecular and Cellular
     Basis of Cognition. Contributed to application review, candidate
     interviews, and scoring.
 
--   **2025/05 and 2024/05** **Volunteer**, Science Rendezvous, St.
-    George Campus, University of Toronto  
+-   **2025/05 and 2024/05**&nbsp;&nbsp;&nbsp; **Volunteer**, Science
+    Rendezvous, St. George Campus, University of Toronto  
     Coordinated poster presentations, engaged with the public and
     facilitated event logistics.
 
--   **2024/07-2025/03** **Mentor for Undergraduate Students**, The
-    Hospital for Sick Children  
+-   **2024/07-2025/03**&nbsp;&nbsp;&nbsp; **Mentor for Undergraduate
+    Students**, The Hospital for Sick Children  
     Mentored two undergraduate students in Dr. Josselyn’s lab: one
     received hands-on training in wet lab techniques, and the other was
     guided through machine learning-based classification of neuronal
     types in calcium imaging data.
 
--   **2025/07 and 2024/05** **Kids Science Lab Tours**, The Hospital for
-    Sick Children  
+-   **2025/07 and 2024/05**&nbsp;&nbsp;&nbsp; **Kids Science Lab
+    Tours**, The Hospital for Sick Children  
     Held lab tours for high school students and International Brain Bee
     competition awardees, demonstrated microscopy, promoted our
     research, and explained the role of machine learning in
     neuroscience.
 
--   **2021/10-2023/08** **Neuroscience Major Representative**,
-    Heidelberg University  
+-   **2021/10-2023/08**&nbsp;&nbsp;&nbsp; **Neuroscience Major
+    Representative**, Heidelberg University  
     Facilitated communication between students and faculty in the
     Molecular Biosciences Master’s program. Addressed student inquiries
     on program planning, lab rotations, and international research
@@ -342,25 +354,26 @@ Halle-Wittenberg, Germany*
     students. Coordinated social events (e.g., pub quizzes, hikes) to
     strengthen student community.
 
--   **2021/12-2022/10** **Symposium Co-organizer**, Heidelberg
-    University  
+-   **2021/12-2022/10**&nbsp;&nbsp;&nbsp; **Symposium Co-organizer**,
+    Heidelberg University  
     Recruited speakers and helped run the “Sustainability in Science”
     symposium. Moderated sessions and introduced speakers. Organized
     social events such as a pub quiz and group hike.
 
 ## Outside the University
 
--   **2023/09 – ongoing** **Active Member**, Ukrainian Students’ Club in
-    Toronto  
+-   **2023/09 – ongoing**&nbsp;&nbsp;&nbsp; **Active Member**, Ukrainian
+    Students’ Club in Toronto  
     Organizing cultural and fundraising events to support the Ukrainian
     community in Toronto, such as podium discussions with the Consul
     General of Ukraine.
 
--   **2022/03 – 2022/08** **Volunteer**, Heidelberg  
+-   **2022/03 – 2022/08**&nbsp;&nbsp;&nbsp; **Volunteer**, Heidelberg  
     Served as a translator for Ukrainian refugees for doctor visits,
     temporary permit applications, and bank appointments.
 
--   **2019/06 – 2021/08** **High School Student Mentor**, online  
+-   **2019/06 – 2021/08**&nbsp;&nbsp;&nbsp; **High School Student
+    Mentor**, online  
     Advised Ukrainian high school graduates on applying to bachelor’s
     and master’s programs in Germany. Supported university applications,
     housing searches, bank account setup, and understanding of German
@@ -368,50 +381,53 @@ Halle-Wittenberg, Germany*
 
 # Conference Participation
 
--   **2025/09** Neuronto 2025, Toronto ON, Canada
+-   **2025/09**&nbsp;&nbsp;&nbsp; Neuronto 2025, Toronto ON, Canada
 
--   **2025/06** Collaborative Program in Neuroscience (CPIN) Research
-    Day 2025, Toronto ON, Canada
+-   **2025/06**&nbsp;&nbsp;&nbsp; Collaborative Program in Neuroscience
+    (CPIN) Research Day 2025, Toronto ON, Canada
 
--   **2025/05** Annual Frontiers in Physiology Research Symposium 2025,
-    Toronto ON, Canada
+-   **2025/05**&nbsp;&nbsp;&nbsp; Annual Frontiers in Physiology
+    Research Symposium 2025, Toronto ON, Canada
 
--   **2025/05** Canadian Association for Neuroscience Meeting 2025,
-    Toronto ON, Canada
+-   **2025/05**&nbsp;&nbsp;&nbsp; Canadian Association for Neuroscience
+    Meeting 2025, Toronto ON, Canada
 
--   **2024/11** Neuroscience and Mental Health Research Day 2024,
-    SickKids, Toronto ON, Canada
+-   **2024/11**&nbsp;&nbsp;&nbsp; Neuroscience and Mental Health
+    Research Day 2024, SickKids, Toronto ON, Canada
 
--   **2024/06** Neuronto Research Symposium, MaRS Centre, Toronto ON,
-    Canada
+-   **2024/06**&nbsp;&nbsp;&nbsp; Neuronto Research Symposium, MaRS
+    Centre, Toronto ON, Canada
 
--   **2023/11** Neuroscience and Mental Health Trainee Conference,
-    SickKids, Toronto ON, Canada
+-   **2023/11**&nbsp;&nbsp;&nbsp; Neuroscience and Mental Health Trainee
+    Conference, SickKids, Toronto ON, Canada
 
--   **2023/07** Interdisciplinary Center for Neurosciences Retreat 2023,
-    Schoental BW, Germany
+-   **2023/07**&nbsp;&nbsp;&nbsp; Interdisciplinary Center for
+    Neurosciences Retreat 2023, Schoental BW, Germany
 
--   **2022/09** Symposium "Sustainability in Science", Heidelberg BW,
-    Germany
+-   **2022/09**&nbsp;&nbsp;&nbsp; Symposium "Sustainability in Science",
+    Heidelberg BW, Germany
 
--   **2021/09** Symposium "Science Outside the Box", Heidelberg BW,
-    Germany
+-   **2021/09**&nbsp;&nbsp;&nbsp; Symposium "Science Outside the Box",
+    Heidelberg BW, Germany
 
 # Certifications
 
--   **2025/07** NeuroAI (theory and project components), *Neuromatch*
+-   **2025/07**&nbsp;&nbsp;&nbsp; NeuroAI (theory and project
+    components), *Neuromatch*
 
--   **2025/07** Computational Neuroscience (self-paced), *Neuromatch*
+-   **2025/07**&nbsp;&nbsp;&nbsp; Computational Neuroscience
+    (self-paced), *Neuromatch*
 
--   **2023/01** Course on Laboratory Animals - Function A, D and C  
+-   **2023/01**&nbsp;&nbsp;&nbsp; Course on Laboratory Animals -
+    Function A, D and C  
     *Federation of European Laboratory Animal Science Associations,
     Germany*
 
--   **2022/09** MATLAB Fundamentals, *MathWorks*
+-   **2022/09**&nbsp;&nbsp;&nbsp; MATLAB Fundamentals, *MathWorks*
 
--   **2022/03** Intermediate R, *DataCamp*
+-   **2022/03**&nbsp;&nbsp;&nbsp; Intermediate R, *DataCamp*
 
--   **2022/01** Research Integrity Course, *Epigeum*
+-   **2022/01**&nbsp;&nbsp;&nbsp; Research Integrity Course, *Epigeum*
 
--   **2022/01** Biology Meets Programming (Bioinformatics), *UC San
-    Diego*
+-   **2022/01**&nbsp;&nbsp;&nbsp; Biology Meets Programming
+    (Bioinformatics), *UC San Diego*
