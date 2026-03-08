@@ -41,3 +41,19 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* Force true black background for Dark Theme */
+[data-theme='dark'],
+.theme--dark,
+.theme--dark .page__footer,
+.theme--dark .masthead,
+.theme--dark .initial-content, 
+.theme--dark .page__content,
+.theme--dark #main {
+    background-color: #000000 !important;
+}
+
+/* Ensure text and links remain readable on pure black */
+.theme--dark {
+    --background-color: #000000 !important;
+    --primary-color: #ffffff !important;
+}
