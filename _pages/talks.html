@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Talks and presentations"
+permalink: /talks/
+author_profile: false
+---
+
+{% include base_path %}
+
+<div style="max-width: 1000px; margin: 40px auto;">
+  {% for post in site.talks %}
+    <div class="talk-list-item" style="margin-bottom: 50px;">
+      {{ post.content | markdownify }}
+    </div>
+  {% endfor %}
+</div>

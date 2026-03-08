@@ -1,0 +1,32 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    <div class="page__footer">
+      <footer style="text-align: center; padding: 2em 0; font-size: 0.8em; color: #777;">
+        &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        <br>
+        Site last updated {{ "now" | date: "%Y-%m-%d" }}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

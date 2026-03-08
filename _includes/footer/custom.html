@@ -1,0 +1,11 @@
+<div class="page__footer-follow">
+  </div>
+
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. 
+  {% if site.last_modified_at %}
+    Site last updated {{ site.last_modified_at | date: "%Y-%m-%d" }}
+  {% else %}
+    Site last updated {{ "now" | date: "%Y-%m-%d" }}
+  {% endif %}
+</div>

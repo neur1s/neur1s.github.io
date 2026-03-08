@@ -1,0 +1,42 @@
+name: Convert CV to Markdown
+
+on:
+  push:
+    paths:
+      - 'Sofiya_CV.tex'
+  workflow_dispatch: 
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc
+        run: sudo apt-get install -y pandoc
+
+      - name: Convert LaTeX to Markdown
+        run: |
+          echo "---" > cv.md
+          echo "layout: cv_layout" >> cv.md
+          echo "title: Curriculum Vitae" >> cv.md
+          echo "permalink: /cv/" >> cv.md
+          echo "author_profile: true" >> cv.md 
+          echo "---" >> cv.md
+          echo "" >> cv.md
+          
+          # finds \item[Content] and replaces it with \item content
+          sed -i 's/\\item\[\(.*\)\]/\\item \1\&nbsp;\&nbsp;\&nbsp;/g' Sofiya_CV.tex
+          pandoc Sofiya_CV.tex -f latex -t markdown_strict >> cv.md
+          python scripts/sync_publications_talks.py
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add cv.md
+          git add _publications/
+          git add -f _talks/
+          git commit -m "Auto-update CV and Publications" || exit 0
+          git push
