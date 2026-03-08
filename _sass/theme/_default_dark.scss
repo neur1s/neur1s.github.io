@@ -54,3 +54,11 @@ html[data-theme="dark"] {
     --global-thead-color                : #{$background-lighter};
 }
 
+html[data-theme="dark"], 
+html[data-theme="dark"] body {
+    background-color: #000000 !important;
+}
+
+html[data-theme="dark"] .page__footer {
+    background-color: #000000 !important;
+}
