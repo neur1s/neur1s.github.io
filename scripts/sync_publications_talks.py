@@ -83,8 +83,7 @@ def sync_talks():
             recording = True
             continue
         if recording and len(clean_line) < 40:
-
-            if 'conference presentations' in lower_line or 'teaching' in lower_line or 'grants' in lower_line:
+            if any(x in lower_line for x in ['conference presentations', 'teaching', 'grants']):
                 recording = False
                 break
 
@@ -92,12 +91,14 @@ def sync_talks():
             stripped = line.lstrip()
             if not stripped.strip(): continue
 
+            # Improved regex to catch the URL and video ID
             yt_match = re.search(r'(https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([\w-]+))', stripped)
             
             if yt_match:
                 full_url = yt_match.group(1)
                 video_id = yt_match.group(2)
                 
+                # 1. Prepare the video block
                 yt_insert = (
                     f'\n<div style="margin: 15px 0;">'
                     f'<a href="{full_url}" target="_blank" style="text-decoration:none;">'
@@ -106,15 +107,31 @@ def sync_talks():
                     f'</a></div>\n'
                 )
                 
-                cleaned = stripped.replace(full_url, "")
-                cleaned = re.sub(r'watch on youtube', '', cleaned, flags=re.IGNORECASE).strip()
-
-                talks_content.append(f"{cleaned}{yt_insert}")
+                # 2. Clean the line text
+                # This regex looks for patterns like: (watch on Youtube [link]) or [watch on Youtube](link)
+                # It handles the parentheses and the text within them.
+                cleaned = stripped
+                # Remove Markdown links: [watch on youtube](url) or similar
+                cleaned = re.sub(r'\[[^\]]*watch on youtube[^\]]*\]\([^\)]*\)', '', cleaned, flags=re.IGNORECASE)
+                # Remove plain text versions: (watch on youtube)
+                cleaned = re.sub(r'\(\s*watch on youtube\s*\)', '', cleaned, flags=re.IGNORECASE)
+                # Remove the URL if it's still hanging around
+                cleaned = cleaned.replace(full_url, "")
+                # Clean up any empty parentheses () or leftover "watch on youtube" strings
+                cleaned = re.sub(r'watch on youtube', '', cleaned, flags=re.IGNORECASE)
+                cleaned = re.sub(r'\(\s*\)', '', cleaned)
+                
+                # Final trim to remove trailing punctuation/spaces before the video insert
+                cleaned = cleaned.strip().rstrip('.')
+                
+                # Append text first, then the video block
+                talks_content.append(f"{cleaned}.\n{yt_insert}")
             else:
+                # Handle standard list items or continuations
                 if stripped[0].isdigit() and ". " in stripped[:4]:
-                    talks_content.append(f"\n\n{stripped}")
+                    talks_content.append(f"\n\n{stripped.strip()}")
                 else:
-                    talks_content.append(f" {stripped}")
+                    talks_content.append(f" {stripped.strip()}")
 
     if not talks_content: return
 
@@ -124,7 +141,7 @@ def sync_talks():
 
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("---\ntitle: \"Talks\"\ncollection: talks\npermalink: /talks/\n---\n\n")
-        f.writelines(talks_content)
+        f.write("".join(talks_content))
 
 if __name__ == "__main__":
     sync_publications()
