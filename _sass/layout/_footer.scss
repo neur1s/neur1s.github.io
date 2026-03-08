@@ -94,3 +94,18 @@
     }
   }
 }
+
+/* Hide theme defaults and force a clean footer */
+.page__footer-follow {
+  display: none !important;
+}
+
+.page__footer-copyright {
+  display: none !important;
+}
+
+/* Allow your custom footer in _includes/footer.html to show */
+footer.page__footer div:last-child {
+  display: block !important;
+  text-align: center;
+}
