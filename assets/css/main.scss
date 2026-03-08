@@ -41,33 +41,3 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* FORCE TOTAL BLACKOUT */
-html, 
-body, 
-.theme--dark, 
-.theme--dark .masthead, 
-.theme--dark .page__footer, 
-.theme--dark .page__content,
-.theme--dark #main,
-.theme--dark .initial-content,
-.theme--dark .search-content {
-    background-color: #000000 !important;
-    background: #000000 !important; /* Catch gradients/images */
-}
-
-/* Ensure the wrapper and any sidebars also turn black */
-.theme--dark .page__sidebar,
-.theme--dark .archive {
-    background-color: #000000 !important;
-}
-
-/* Ensure text is white */
-.theme--dark, 
-.theme--dark h1, 
-.theme--dark h2, 
-.theme--dark h3, 
-.theme--dark p, 
-.theme--dark li, 
-.theme--dark a {
-    color: #ffffff !important;
-}
