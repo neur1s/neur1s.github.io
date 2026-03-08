@@ -4,43 +4,28 @@ title: ""
 layout: splash
 author_profile: false
 ---
+HTML
+---
+permalink: /
+title: ""
+layout: splash
+author_profile: false
+---
 
 <div style="text-align: center; margin-bottom: 2em;">
-  <img src="/images/profile_pic.png" style="width: 180px; border-radius: 50%; margin-bottom: 15px;" alt="Sofiya Zbaranska">
-  
-  <h1>Sofiya Zbaranska</h1>
-  <p><strong>Neuroscience PhD Candidate @ University of Toronto</strong></p>
-  <div style="font-size: 1.5em; margin-bottom: 15px;">🇺🇦</div>
-
-  <div style="font-size: 1.8em; margin-top: 10px;">
-    <a href="mailto:sofiya.zbaranska@mail.utoronto.ca" style="margin: 0 10px; color: #c9ab98; text-decoration: none;">
-      <i class="fas fa-fw fa-envelope"></i>
-    </a>
-    
-    <a href="https://scholar.google.ca/citations?user=7ZBuO4wAAAAJ&hl=en" style="margin: 0 10px; color: #c9ab98; text-decoration: none;">
-      <i class="ai ai-google-scholar"></i>
-    </a>
-
-    <a href="https://orcid.org/0009-0003-0464-935X" style="margin: 0 10px; color: #c9ab98; text-decoration: none;">
-      <i class="ai ai-orcid"></i>
-    </a>
-
-    <a href="https://www.linkedin.com/in/neur1s" style="margin: 0 10px; color: #c9ab98; text-decoration: none;">
-      <i class="fab fa-fw fa-linkedin"></i>
-    </a>
-
-    <a href="https://github.com/neur1s" style="margin: 0 10px; color: #c9ab98; text-decoration: none;">
-      <i class="fab fa-fw fa-github"></i>
-    </a>
-
-    <a href="https://twitter.com/neur1s" style="margin: 0 10px; color: #c9ab98; text-decoration: none;">
-      <i class="fab fa-fw fa-twitter"></i>
-    </a>
-
-    <a href="https://bsky.app/profile/neur1s.bsky.social" style="margin: 0 10px; color: #c9ab98; text-decoration: none;">
-      <i class="fab fa-fw fa-bluesky"></i>
-    </a>
-  </div>
+<img src="/images/profile_pic.png" style="width: 180px; border-radius: 50%; margin-bottom: 15px;" alt="Sofiya Zbaranska">
+<h1>Sofiya Zbaranska</h1>
+<p>Neuroscience PhD Candidate @ University of Toronto</p>
+<div style="font-size: 1.5em; margin-bottom: 15px;">🇺🇦</div>
+<div style="font-size: 1.8em; margin-top: 10px;">
+<a href="mailto:sofiya.zbaranska@mail.utoronto.ca" style="margin: 0 10px; color: #c9ab98; text-decoration: none;"><i class="fas fa-fw fa-envelope"></i></a>
+<a href="https://scholar.google.ca/citations?user=7ZBuO4wAAAAJ&hl=en" style="margin: 0 10px; color: #c9ab98; text-decoration: none;"><i class="ai ai-google-scholar"></i></a>
+<a href="https://orcid.org/0009-0003-0464-935X" style="margin: 0 10px; color: #c9ab98; text-decoration: none;"><i class="ai ai-orcid"></i></a>
+<a href="https://www.linkedin.com/in/neur1s" style="margin: 0 10px; color: #c9ab98; text-decoration: none;"><i class="fab fa-fw fa-linkedin"></i></a>
+<a href="https://github.com/neur1s" style="margin: 0 10px; color: #c9ab98; text-decoration: none;"><i class="fab fa-fw fa-github"></i></a>
+<a href="https://twitter.com/neur1s" style="margin: 0 10px; color: #c9ab98; text-decoration: none;"><i class="fab fa-fw fa-twitter"></i></a>
+<a href="https://bsky.app/profile/neur1s.bsky.social" style="margin: 0 10px; color: #c9ab98; text-decoration: none;"><i class="fab fa-fw fa-bluesky"></i></a>
+</div>
 </div>
 
 ---
