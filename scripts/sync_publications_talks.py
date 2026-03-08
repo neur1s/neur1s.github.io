@@ -73,6 +73,7 @@ def sync_talks():
         lines = f.readlines()
 
     talks_content = []
+    current_video_html = "" # Buffer to hold the video until the line is finished
     recording = False
 
     for line in lines:
@@ -84,6 +85,9 @@ def sync_talks():
             continue
         if recording and len(clean_line) < 40:
             if any(x in lower_line for x in ['conference presentations', 'teaching', 'grants']):
+                if current_video_html:
+                    talks_content.append(current_video_html)
+                    current_video_html = ""
                 recording = False
                 break
 
@@ -91,47 +95,38 @@ def sync_talks():
             stripped = line.lstrip()
             if not stripped.strip(): continue
 
-            # Improved regex to catch the URL and video ID
+            is_new_talk = stripped[0].isdigit() and ". " in stripped[:4]
+
+            if is_new_talk and current_video_html:
+                talks_content.append(current_video_html)
+                current_video_html = ""
+
             yt_match = re.search(r'(https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([\w-]+))', stripped)
             
             if yt_match:
                 full_url = yt_match.group(1)
                 video_id = yt_match.group(2)
                 
-                # 1. Prepare the video block
-                yt_insert = (
-                    f'\n<div style="margin: 15px 0;">'
-                    f'<a href="{full_url}" target="_blank" style="text-decoration:none;">'
-                    f'<img src="https://img.youtube.com/vi/{video_id}/mqdefault.jpg" style="width:240px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.15);">'
-                    f'<div style="font-size:0.85em; color:black; font-weight:bold; margin-top:5px;">▶ Watch on YouTube</div>'
+                current_video_html = (
+                    f'\n<div style="margin: 20px 0;">'
+                    f'<a href="{full_url}" target="_blank">'
+                    f'<img src="https://img.youtube.com/vi/{video_id}/maxresdefault.jpg" '
+                    f'style="width:400px; border-radius:12px; box-shadow:0 6px 15px rgba(0,0,0,0.3);">'
                     f'</a></div>\n'
                 )
+            
+                cleaned_text = stripped.replace(full_url, "").strip()
+                cleaned_text = re.sub(r'\[(.*?)\]\(\s*\)', r'\1', cleaned_text)
                 
-                # 2. Clean the line text
-                # This regex looks for patterns like: (watch on Youtube [link]) or [watch on Youtube](link)
-                # It handles the parentheses and the text within them.
-                cleaned = stripped
-                # Remove Markdown links: [watch on youtube](url) or similar
-                cleaned = re.sub(r'\[[^\]]*watch on youtube[^\]]*\]\([^\)]*\)', '', cleaned, flags=re.IGNORECASE)
-                # Remove plain text versions: (watch on youtube)
-                cleaned = re.sub(r'\(\s*watch on youtube\s*\)', '', cleaned, flags=re.IGNORECASE)
-                # Remove the URL if it's still hanging around
-                cleaned = cleaned.replace(full_url, "")
-                # Clean up any empty parentheses () or leftover "watch on youtube" strings
-                cleaned = re.sub(r'watch on youtube', '', cleaned, flags=re.IGNORECASE)
-                cleaned = re.sub(r'\(\s*\)', '', cleaned)
-                
-                # Final trim to remove trailing punctuation/spaces before the video insert
-                cleaned = cleaned.strip().rstrip('.')
-                
-                # Append text first, then the video block
-                talks_content.append(f"{cleaned}.\n{yt_insert}")
+                talks_content.append(f"{cleaned_text}")
             else:
-                # Handle standard list items or continuations
-                if stripped[0].isdigit() and ". " in stripped[:4]:
+                if is_new_talk:
                     talks_content.append(f"\n\n{stripped.strip()}")
                 else:
                     talks_content.append(f" {stripped.strip()}")
+
+    if current_video_html:
+        talks_content.append(current_video_html)
 
     if not talks_content: return
 
