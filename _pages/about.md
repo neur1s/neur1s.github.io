@@ -4,13 +4,6 @@ title: ""
 layout: splash
 author_profile: false
 ---
-HTML
----
-permalink: /
-title: ""
-layout: splash
-author_profile: false
----
 
 <div style="text-align: center; margin-bottom: 2em;">
 <img src="/images/profile_pic.png" style="width: 180px; border-radius: 50%; margin-bottom: 15px;" alt="Sofiya Zbaranska">
