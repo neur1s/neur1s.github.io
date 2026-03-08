@@ -106,7 +106,7 @@ def sync_talks():
             if yt_match:
                 full_url = yt_match.group(1)
                 video_id = yt_match.group(2)
-                
+
                 current_video_html = (
                     f'\n<div style="margin: 20px 0;">'
                     f'<a href="{full_url}" target="_blank">'
@@ -114,9 +114,12 @@ def sync_talks():
                     f'style="width:400px; border-radius:12px; box-shadow:0 6px 15px rgba(255,255,255,0.1); border: 1px solid #333;">'
                     f'</a></div>\n'
                 )
+            
+                line_text = stripped.strip()
+                line_text = re.sub(r'([^\s])(YouTube)', r'\1 \2', line_text, flags=re.IGNORECASE)
                 
                 prefix = "\n" if is_new_bullet else ""
-                talks_content.append(f"{prefix}{stripped.strip()}")
+                talks_content.append(f"{prefix}{line_text}")
             else:
                 if is_new_bullet:
                     talks_content.append(f"\n{stripped.strip()}")
