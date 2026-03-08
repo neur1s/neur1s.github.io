@@ -62,10 +62,6 @@ def sync_publications():
         f.write("---\n\n")
         f.writelines(pub_content)
 
-import os
-import shutil
-import re
-
 def sync_talks():
     cv_path = 'cv.md'
     talks_folder = '_talks'
@@ -131,7 +127,5 @@ def sync_talks():
         f.writelines(talks_content)
 
 if __name__ == "__main__":
-
-    from sync_publications import sync_publications 
     sync_publications()
     sync_talks()
