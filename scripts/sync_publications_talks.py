@@ -115,11 +115,8 @@ def sync_talks():
                     f'</a></div>\n'
                 )
                 
-                cleaned_text = stripped.replace(full_url, "").strip()
-                cleaned_text = re.sub(r'\[(.*?)\]\(\s*\)', r'\1', cleaned_text)
-                
                 prefix = "\n" if is_new_bullet else ""
-                talks_content.append(f"{prefix}{cleaned_text}")
+                talks_content.append(f"{prefix}{stripped.strip()}")
             else:
                 if is_new_bullet:
                     talks_content.append(f"\n{stripped.strip()}")
