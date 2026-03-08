@@ -26,7 +26,9 @@ jobs:
           echo "---" >> cv.md
           echo "" >> cv.md
           
-          pandoc Sofiya_CV.tex -f latex -t markdown-smart --wrap=none >> cv.md
+          # finds \item[Content] and replaces it with \item content
+          sed -i 's/\\item\[\(.*\)\]/\\item \1/g' Sofiya_CV.tex
+          pandoc Sofiya_CV.tex -f latex -t markdown_strict >> cv.md
           python scripts/sync_publications_talks.py
 
       - name: Commit and Push
