@@ -22,7 +22,7 @@ author_profile: false
   </div>
 
   <div style="font-size: 1em; line-height: 1.6; text-align: justify;">
-    I'm a PhD candidate in Neuroscience (Physiology program) at University of Toronto. I like exploring memory in biological and artificial systems. My primary PhD project is supervised by Dr. Sheena Josselyn and focuses on the role of the amygdala in social memory. I study this in mice using neurosurgeries, optical recordings of neural activity, pharmacological interventions, and behavioral assays. I also translate findings from experimental neuroscience to artificial neural networks, and am currently working on implementing memory prioritization mechanisms in transformers.
+    I'm a PhD candidate in Neuroscience (Physiology program) at University of Toronto. I like exploring memory in biological and artificial systems. My primary PhD project is supervised by Dr. Sheena Josselyn and focuses on the role of the amygdala in social memory. I study this in mice using neurosurgeries, optical recordings of neural activity, pharmacological interventions, and behavioral assays. In collaboration with Dr. Brokoslaw Laschowski, I also translate findings from experimental neuroscience to artificial neural networks, and am currently working on implementing memory prioritization mechanisms in transformers.
     <br><br>
     Outside of academia, I am dedicated to supporting Ukraine and enjoy gym, reading, and snowboarding.
   </div>
