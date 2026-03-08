@@ -62,6 +62,10 @@ def sync_publications():
         f.write("---\n\n")
         f.writelines(pub_content)
 
+import os
+import shutil
+import re
+
 def sync_talks():
     cv_path = 'cv.md'
     talks_folder = '_talks'
@@ -74,8 +78,6 @@ def sync_talks():
 
     talks_content = []
     recording = False
-    current_talk = ""
-    current_video_html = ""
 
     for line in lines:
         clean_line = line.strip()
@@ -85,9 +87,8 @@ def sync_talks():
             recording = True
             continue
         if recording and len(clean_line) < 40:
-            if 'conference presentations' in lower_line or 'teaching' in lower_line:
-                if current_talk:
-                    talks_content.append(current_talk + current_video_html)
+
+            if 'conference presentations' in lower_line or 'teaching' in lower_line or 'grants' in lower_line:
                 recording = False
                 break
 
@@ -95,19 +96,13 @@ def sync_talks():
             stripped = line.lstrip()
             if not stripped.strip(): continue
 
-            if stripped[0].isdigit() and ". " in stripped[:4]:
-                if current_talk:
-                    talks_content.append(current_talk + current_video_html)
-                
-                current_talk = f"\n\n{stripped.rstrip()}"
-                current_video_html = ""
-            
             yt_match = re.search(r'(https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([\w-]+))', stripped)
+            
             if yt_match:
                 full_url = yt_match.group(1)
                 video_id = yt_match.group(2)
                 
-                current_video_html = (
+                yt_insert = (
                     f'\n<div style="margin: 15px 0;">'
                     f'<a href="{full_url}" target="_blank" style="text-decoration:none;">'
                     f'<img src="https://img.youtube.com/vi/{video_id}/mqdefault.jpg" style="width:240px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.15);">'
@@ -115,23 +110,28 @@ def sync_talks():
                     f'</a></div>\n'
                 )
                 
-                cleaned_text = stripped.replace(full_url, "")
-                cleaned_text = re.sub(r'watch on youtube', '', cleaned_text, flags=re.IGNORECASE).strip()
-                current_talk += " " + cleaned_text
+                cleaned = stripped.replace(full_url, "")
+                cleaned = re.sub(r'watch on youtube', '', cleaned, flags=re.IGNORECASE).strip()
 
-            elif current_talk:
-                current_talk += " " + stripped.rstrip()
-
-    if current_talk and recording:
-        talks_content.append(current_talk + current_video_html)
+                talks_content.append(f"{cleaned}{yt_insert}")
+            else:
+                if stripped[0].isdigit() and ". " in stripped[:4]:
+                    talks_content.append(f"\n\n{stripped}")
+                else:
+                    talks_content.append(f" {stripped}")
 
     if not talks_content: return
-    if not os.path.exists(talks_folder): os.makedirs(talks_folder)
+
+    if os.path.exists(talks_folder):
+        shutil.rmtree(talks_folder)
+    os.makedirs(talks_folder)
 
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("---\ntitle: \"Talks\"\ncollection: talks\npermalink: /talks/\n---\n\n")
         f.writelines(talks_content)
-        
+
 if __name__ == "__main__":
+
+    from sync_publications import sync_publications 
     sync_publications()
     sync_talks()
