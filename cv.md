@@ -19,10 +19,10 @@ Scholar](https://scholar.google.com/citations?user=7ZBuO4wAAAAJ&hl=en) ⋅
 I am a third-year Ph.D. student co-supervised by Drs. Josselyn and
 Laschowski at the University of Toronto. I am strongly committed to
 advancing our understanding of memory function in natural and artificial
-intelligence systems and display active leadership in science outreach
-and community engagement. I am passionate about bridging the gap between
-cutting-edge research and the public, while also advocating for Ukraine
-and supporting those affected by the war.
+intelligence systems and demonstrate active leadership in science
+outreach and community engagement. I am passionate about bridging the
+gap between cutting-edge research and the public, while also advocating
+for Ukraine and supporting those affected by the war.
 
 # Education
 
@@ -33,7 +33,7 @@ Toronto, Toronto, Canada*
 -   Ph.D. thesis project on engram ensembles supporting social memory,
     supervised by Dr. Sheena Josselyn at SickKids Research Institute
 
--   Research project on brain-inspired memory mechanism for neural
+-   Research project on brain-inspired memory mechanisms for neural
     networks based on emotional valence, supervised by Dr. Brokoslaw
     Laschowski at University Health Network
 
@@ -99,7 +99,7 @@ Halle-Wittenberg, Germany*
 
 1.  Park, S., Wu, B., **Zbaranska, S.**, Lee J., Jacob A.D., Hoorn A.,
     Mocle A., Luchetti A., Jung J.H., Mocle A.J., Frankland P.W.,
-    Josselyn S.A. (2026) Temporally-gated offline engram ensemble
+    Josselyn S.A. (2026). Temporally-gated offline engram ensemble
     reverberation in the lateral amygdala is required for fear memory
     consolidation. Accepted at *Proceedings of the National Academy of
     Sciences*.  
@@ -110,9 +110,9 @@ Halle-Wittenberg, Germany*
 2.  **Zbaranska, S.**, Josselyn, S. A. (2025). Astrocytes: Emerging
     Stars of Engrams. *Cell Research* (IF: 28.2) 35(4), 241-242.
     <https://doi.org/10.1038/s41422-024-01066-4> (Refereed).  
-    **Role:** First author. Performed literature search, wrote the
-    manuscript, prepared the figure, and participated in editing and
-    revisions. **Contribution:** 90%
+    **Role:** Performed literature search, wrote the manuscript,
+    prepared the figure, and participated in editing and revisions.
+    **Contribution:** 90%
 
 3.  **Zbaranska, S.**, Lee, J.J., Zaheer, M., Josselyn S.A. (2024).
     Unraveling Engrams: Tracing Memories through Time. *Reference Module
@@ -122,34 +122,44 @@ Halle-Wittenberg, Germany*
     the manuscript, prepared figures, and participated in editing and
     revisions. **Contribution:** 31–40%
 
-## In Preparation
+## Manuscripts
 
 1.  **Zbaranska, S.**, Rajeev A., Josselyn S., Laschowski B. (2026) A
-    Brain-inspired Memory Mechanism for Neural Networks Based on
-    Emotional Valence (under preparation for *IEEE Transactions on
-    Neural Networks and Learning Systems*).  
-    **Role:** Project lead, designed the model architecture, specified
-    the tasks and training procedure, wrote the code, performed data
-    analysis, and wrote the manuscript. **Contribution:** 70%
+    Brain-Inspired Memory Mechanism for Neural Networks Based on
+    Emotional Valence (submitted to *Neural Information Processing
+    Systems*).  
+    **Role:** Project lead, conceptualized the framework, specified the
+    tasks and training procedure, wrote the codebase, evaluated the
+    models and wrote the manuscript. **Contribution:** 70%
 
-2.  Zanjanpour D., **Zbaranska, S.**, Liu H.T., Laschowski B. A
-    Neuroscientific Framework for Trust in Human-Robot Interaction.  
+2.  **Zbaranska, S.**, Sarikahya M.H., Luchetti A., Rashid A. J.,
+    Frankland P.W., Josselyn S.A. Medial Amygdala Stores Social Memories
+    in Engram Neurons Requiring Oxytocin Signalling (under
+    preparation).  
+    **Role:** Project lead, conceptualized the study, carried out the
+    main experiments, performed data analysis and wrote the manuscript.
+    **Contribution:** 90%
+
+3.  Zanjanpour D., **Zbaranska, S.**, Liu H.T., Laschowski B. A
+    Neuroscientific Framework for Trust in Human-Robot Interaction
+    (under preparation).  
     **Role:** Literature review, conceptual framework development, and
     manuscript writing. **Contribution:** 20%
 
-3.  Luchetti, A., Wu, B., Hoorn A.A., **Zbaranska, S.**, Jacob A.D.,
+4.  Luchetti, A., Wu, B., Hoorn A.A., **Zbaranska, S.**, Jacob A.D.,
     Mocle A.J, Chen M., DeCristofaro A., Frankland P.W., Josselyn S.A.
     Decoding of Neuronal Activity Patterns in the Lateral Amygdala
-    during Fear Memory Formation in Mice.  
+    during Fear Memory Formation in Mice (under preparation).  
     **Role:** Analyzed behavioural data and analyzed the role of
     different neuronal populations using machine learning classifiers.
     **Contribution:** 10%
 
 # Service
 
--   **Since 2023**&nbsp;&nbsp;&nbsp; Peer reviewer for *Philosophical
-    Transactions of the Royal Society B* (1 manuscript), *International
-    Conference on Learning Representations* (2 manuscripts)
+-   **Since 2023**&nbsp;&nbsp;&nbsp; **Peer Reviewer** for
+    *Philosophical Transactions of the Royal Society B* (1 manuscript),
+    *International Conference on Learning Representations* (2
+    manuscripts)
 
 -   **2025/02-2025/05**&nbsp;&nbsp;&nbsp; **Search Committee Member**,
     The Hospital for Sick Children  
@@ -177,14 +187,14 @@ Halle-Wittenberg, Germany*
 
 # Conference Presentations
 
-1.  **Zbaranska S.**, Sarikahya M.H., Luchetti A., Frankland P.W.,
-    Josselyn S.A. How the Medial Amygdala Shapes Neutral and Emotionally
-    Charged Social Memories. 2026 Annual Meeting of the Society for
-    Social Neuroscience (upcoming). Montreal, QC, Canada, August 2026.
-    Poster presentation.
+1.  **Zbaranska S.**, Sarikahya M.H., Luchetti A., Rashid A. J.,
+    Frankland P.W., Josselyn S.A. How the Medial Amygdala Shapes Neutral
+    and Emotionally Charged Social Memories. 2026 Annual Meeting of the
+    Society for Social Neuroscience (upcoming). Montreal, QC, Canada,
+    August 2026. Poster presentation.
 
 2.  **Zbaranska S.**, Rajeev A., Josselyn S., and Laschowski B.
-    Neuroscience-inspired AI for memory. CPIN Research Day 2026
+    Neuroscience-Inspired AI for Memory. CPIN Research Day 2026
     (upcoming). Toronto, ON, Canada, June 2026. Poster presentation.
 
 3.  **Zbaranska S.**, Sarikahya M.H., Luchetti A., Frankland P.W.,
@@ -214,16 +224,15 @@ Halle-Wittenberg, Germany*
 
 # Research Experience
 
--   **08/2025 – ongoing**&nbsp;&nbsp;&nbsp; **Collaborative
-    Computational Research Project with Dr. Laschowski**  
+-   **08/2025 – ongoing**&nbsp;&nbsp;&nbsp; **Collaborative Research
+    Project with Dr. Laschowski**  
     *University Health Network, Toronto, Canada*  
-    Designed and implemented a transformer model trained on a synthetic
-    episodic memory task. Incorporated emotional valence levels to
-    incentivize memory prioritization. Showed that this approach
-    improves long-term memory performance, spatial information
-    representation, and robustness to noise. Manuscript is in
-    preparation for submission to *IEEE Transactions on Neural Networks
-    and Learning Systems*.
+    Conceptualized the framework for valence-based memory prioritization
+    in neural networks. Designed and implemented transformer models
+    trained on synthetic memory tasks and language. Showed that this
+    approach improves long-term memory performance, spatial information
+    representation, and attention sparsity. Manuscript was submitted to
+    *Neural Information Processing Systems*.
 
 -   **09/2023 – ongoing**&nbsp;&nbsp;&nbsp; **Ph.D. Research Project in
     Josselyn lab**  
