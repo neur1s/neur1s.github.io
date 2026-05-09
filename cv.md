@@ -16,13 +16,16 @@ Scholar](https://scholar.google.com/citations?user=7ZBuO4wAAAAJ&hl=en) ⋅
 
 # Summary
 
-I am a third-year Ph.D. student co-supervised by Drs. Josselyn and
-Laschowski at the University of Toronto. I am strongly committed to
-advancing our understanding of memory function in natural and artificial
-intelligence systems and demonstrate active leadership in science
-outreach and community engagement. I am passionate about bridging the
-gap between cutting-edge research and the public, while also advocating
-for Ukraine and supporting those affected by the war.
+I am a PhD candidate in Physiology at the University of Toronto,
+co-supervised by Drs. Josselyn and Laschowski. My primary research
+interest is how the brain stores neutral and emotionally charged social
+memories (i.e., how we remember others). In parallel, I use principles
+of biological memory to build better artificial intelligence. Recently,
+I developed a brain-inspired framework for memory prioritization in
+neural networks based on emotional valence. I have research experience
+across several countries, including Germany, Sweden and Canada. Outside
+the lab, I am committed to science outreach, mentorship, and advocating
+for Ukraine and those affected by the war.
 
 # Education
 
@@ -101,7 +104,7 @@ Halle-Wittenberg, Germany*
     Mocle A., Luchetti A., Jung J.H., Mocle A.J., Frankland P.W.,
     Josselyn S.A. (2026). Temporally-gated offline engram ensemble
     reverberation in the lateral amygdala is required for fear memory
-    consolidation. Accepted at *Proceedings of the National Academy of
+    consolidation. In press in *Proceedings of the National Academy of
     Sciences*.  
     **Role:** Analyzed behavioural data and applied machine learning
     techniques to calcium imaging datasets; contributed to manuscript
@@ -126,8 +129,8 @@ Halle-Wittenberg, Germany*
 
 1.  **Zbaranska, S.**, Rajeev A., Josselyn S., Laschowski B. (2026) A
     Brain-Inspired Memory Mechanism for Neural Networks Based on
-    Emotional Valence (submitted to *Neural Information Processing
-    Systems*).  
+    Emotional Valence. *bioRxiv*.  
+    <https://doi.org/10.64898/2026.05.05.723022>  
     **Role:** Project lead, conceptualized the framework, specified the
     tasks and training procedure, wrote the codebase, evaluated the
     models and wrote the manuscript. **Contribution:** 70%
@@ -140,13 +143,19 @@ Halle-Wittenberg, Germany*
     main experiments, performed data analysis and wrote the manuscript.
     **Contribution:** 90%
 
-3.  Zanjanpour D., **Zbaranska, S.**, Liu H.T., Laschowski B. A
+3.  Park, S., Hoorn A., Fallahi A., **Zbaranska, S.**, Saderi M., Jacob
+    A.D., Frankland P.W., Josselyn S.A. Differential Fear and Extinction
+    Control Through Lateral Amygdala Engrams (under preparation).  
+    **Role:** Analyzed single-cell spatial transcriptomic data using
+    machine learning classifiers. **Contribution:** 10%
+
+4.  Zanjanpour D., **Zbaranska, S.**, Liu H.T., Laschowski B. A
     Neuroscientific Framework for Trust in Human-Robot Interaction
     (under preparation).  
     **Role:** Literature review, conceptual framework development, and
     manuscript writing. **Contribution:** 20%
 
-4.  Luchetti, A., Wu, B., Hoorn A.A., **Zbaranska, S.**, Jacob A.D.,
+5.  Luchetti, A., Wu, B., Hoorn A.A., **Zbaranska, S.**, Jacob A.D.,
     Mocle A.J, Chen M., DeCristofaro A., Frankland P.W., Josselyn S.A.
     Decoding of Neuronal Activity Patterns in the Lateral Amygdala
     during Fear Memory Formation in Mice (under preparation).  
@@ -384,6 +393,17 @@ Halle-Wittenberg, Germany*
     and master’s programs in Germany. Supported university applications,
     housing searches, bank account setup, and understanding of German
     health insurance.
+
+# Media Appearances
+
+-   **2026/05**&nbsp;&nbsp;&nbsp; [**University of Toronto
+    media**](https://www.instagram.com/p/DYCtendkSTX/?img_index=3): Post
+    about my researh on social memory and translating the mechanisms of
+    emotional learning in the brain into better AI
+
+-   **2026/04**&nbsp;&nbsp;&nbsp; [**University of Toronto
+    news**](https://www.utoronto.ca/news/toronto-researcher-found-where-memories-live-can-she-help-people-alzheimer-s-and-ptsd-too):
+    The next memory makers
 
 # Conference Participation
 
