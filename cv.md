@@ -106,7 +106,7 @@ Halle-Wittenberg, Germany*
     reverberation in the lateral amygdala is required for fear memory
     consolidation. *Proceedings of the National Academy of Sciences*,
     *123*(20), e2602678123.  
-    https://doi.org/10.1073/pnas.2602678123  
+    <https://doi.org/10.1073/pnas.2602678123> (Refereed).  
     **Role:** Analyzed behavioural data and applied machine learning
     techniques to calcium imaging datasets; contributed to manuscript
     writing and revisions.  
