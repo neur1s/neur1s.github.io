@@ -181,15 +181,20 @@ Halle-Wittenberg, Germany*
 
 # Public Talks
 
+-   **2026/05/18**&nbsp;&nbsp;&nbsp; *Telling Friends from Foes:
+    Contributions of the Medial Amygdala to Social Memory*. Canadian
+    Association for Neuroscience Meeting (Integrate and Fire Satellite),
+    Montreal, QC Canada.
+
 -   **2026/02/05**&nbsp;&nbsp;&nbsp; *Modeling Memory Processes in the
-    Brain Using Transformers* (The Hospital for Sick Children, Toronto,
-    ON Canada). Invited by AI4SickKids Reading Group orginizing
-    committee.
+    Brain Using Transformers*. Invited by AI4SickKids Reading Group
+    orginizing committee. The Hospital for Sick Children, Toronto, ON
+    Canada.
 
 -   **2025/11/27**&nbsp;&nbsp;&nbsp; *Telling Friends from Foes:
-    Contributions of the Medial Amygdala to Social Memory* (The Hospital
-    for Sick Children, Toronto, ON Canada). Invited by the Neuroscience
-    and Mental Health Program Council at the Hospital for Sick Children.
+    Contributions of the Medial Amygdala to Social Memory* Invited by
+    the Neuroscience and Mental Health Program Council. The Hospital for
+    Sick Children, Toronto, ON Canada.
 
 -   **2025/10/13**&nbsp;&nbsp;&nbsp; *The Factory of Memories: Taming
     the Engram* (watch on
@@ -205,14 +210,14 @@ Halle-Wittenberg, Germany*
     August 2026. Poster presentation.
 
 2.  **Zbaranska S.**, Rajeev A., Josselyn S., and Laschowski B.
-    Neuroscience-Inspired AI for Memory. CPIN Research Day 2026
-    (upcoming). Toronto, ON, Canada, June 2026. Poster presentation.
+    Neuroscience-Inspired AI for Memory. Toronto Robotics Conference
+    2026 (upcoming). Toronto, ON, Canada, June 2026. Poster
+    presentation.
 
 3.  **Zbaranska S.**, Sarikahya M.H., Luchetti A., Frankland P.W.,
     Josselyn S.A. Telling Friends from Foes: Contributions of the Medial
     Amygdala to Social Memory. Canadian Association for Neuroscience
-    Meeting 2026 (upcoming). Montreal, QC, Canada, May 2026. Poster
-    presentation.
+    Meeting 2026. Montreal, QC, Canada, May 2026. Poster presentation.
 
 4.  **Zbaranska S.**, Frankland P.W., Josselyn S.A. Telling Friend from
     Foe: The Role of the Medial Amygdala in Social Memory. CPIN Research
