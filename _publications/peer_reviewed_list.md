@@ -36,4 +36,4 @@ manuscript writing. **Contribution:** 20%
 
 5.  Luchetti, A., Wu, B., Hoorn A.A., **Zbaranska, S.**, Jacob A.D., Mocle A.J, Chen M., DeCristofaro A., Frankland P.W., Josselyn S.A. Decoding of Neuronal Activity Patterns in the Lateral Amygdala during Fear Memory Formation in Mice (under preparation).
 **Role:** Analyzed behavioural data and analyzed the role of different neuronal populations using machine learning classifiers.
-**Contribution:** 10% # Service -   **Since 2023**&nbsp;&nbsp;&nbsp; **Peer Reviewer** for *Philosophical Transactions of the Royal Society B* (1 manuscript), *International Conference on Learning Representations* (2 manuscripts) -   **2025/02-2025/05**&nbsp;&nbsp;&nbsp; **Search Committee Member**, The Hospital for Sick Children Represented graduate student perspective on the search committee for recruiting a Principal Investigator in Molecular and Cellular Basis of Cognition. Contributed to application review, candidate interviews, and scoring.
+**Contribution:** 10% 
