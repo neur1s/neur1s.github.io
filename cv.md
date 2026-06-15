@@ -17,15 +17,14 @@ Scholar](https://scholar.google.com/citations?user=7ZBuO4wAAAAJ&hl=en) ⋅
 # Summary
 
 I am a PhD candidate in Physiology at the University of Toronto,
-co-supervised by Drs. Josselyn and Laschowski. My primary research
-interest is how the brain stores neutral and emotionally charged social
-memories (i.e., how we remember others). In parallel, I use principles
-of biological memory to build better artificial intelligence. Recently,
-I developed a brain-inspired framework for memory prioritization in
-neural networks based on emotional valence. I have research experience
-across several countries, including Germany, Sweden and Canada. Outside
-the lab, I am committed to science outreach, mentorship, and advocating
-for Ukraine and those affected by the war.
+supervised by Dr. Sheena Josselyn. My primary research interest is how
+the brain stores social memories (i.e., how we remember others). In
+collaboration with Dr. Brokoslaw Laschowski, I developed a
+brain-inspired framework for memory prioritization in neural networks
+based on emotional valence. I have research experience across several
+countries, including Germany, Sweden and Canada. Outside the lab, I am
+committed to science outreach, mentorship, and advocating for Ukraine
+and those affected by the war.
 
 # Education
 
@@ -170,7 +169,7 @@ Halle-Wittenberg, Germany*
 -   **Since 2023**&nbsp;&nbsp;&nbsp; **Peer Reviewer** for
     *Philosophical Transactions of the Royal Society B* (1 manuscript),
     *International Conference on Learning Representations* (2
-    manuscripts)
+    manuscripts), *Neural Information Processing Systems* (1 manuscript)
 
 -   **2025/02-2025/05**&nbsp;&nbsp;&nbsp; **Search Committee Member**,
     The Hospital for Sick Children  
@@ -186,10 +185,11 @@ Halle-Wittenberg, Germany*
     Association for Neuroscience Meeting (Integrate and Fire Satellite),
     Montreal, QC Canada.
 
--   **2026/02/05**&nbsp;&nbsp;&nbsp; *Modeling Memory Processes in the
-    Brain Using Transformers*. Invited by AI4SickKids Reading Group
-    orginizing committee. The Hospital for Sick Children, Toronto, ON
-    Canada.
+-   **2026/02/05**&nbsp;&nbsp;&nbsp; *A Brain-Inspired Framework for
+    Memory Prioritization in Machines Based on Valence* (watch on
+    [**Youtube**](https://www.youtube.com/watch?v=xtZlDW3E3bw)). Invited
+    by AI4SickKids Reading Group orginizing committee. The Hospital for
+    Sick Children, Toronto, ON Canada.
 
 -   **2025/11/27**&nbsp;&nbsp;&nbsp; *Telling Friends from Foes:
     Contributions of the Medial Amygdala to Social Memory* Invited by
