@@ -180,16 +180,19 @@ Halle-Wittenberg, Germany*
 
 # Public Talks
 
+-   **2026/07/17**&nbsp;&nbsp;&nbsp; *A Brain-Inspired Framework for
+    Memory Prioritization in Machines Based on Valence* (watch on
+    [**Youtube**](https://www.youtube.com/watch?v=xtZlDW3E3bw)). Invited
+    by Ukrainian Catholic University, Lviv, Ukraine.
+
 -   **2026/05/18**&nbsp;&nbsp;&nbsp; *Telling Friends from Foes:
     Contributions of the Medial Amygdala to Social Memory*. Canadian
     Association for Neuroscience Meeting (Integrate and Fire Satellite),
     Montreal, QC Canada.
 
--   **2026/02/05**&nbsp;&nbsp;&nbsp; *A Brain-Inspired Framework for
-    Memory Prioritization in Machines Based on Valence* (watch on
-    [**Youtube**](https://www.youtube.com/watch?v=xtZlDW3E3bw)). Invited
-    by AI4SickKids Reading Group orginizing committee. The Hospital for
-    Sick Children, Toronto, ON Canada.
+-   **2026/02/05**&nbsp;&nbsp;&nbsp; *Modeling Memory in the Brain Using
+    Transformers*. Invited by AI4SickKids Reading Group orginizing
+    committee. The Hospital for Sick Children, Toronto, ON Canada.
 
 -   **2025/11/27**&nbsp;&nbsp;&nbsp; *Telling Friends from Foes:
     Contributions of the Medial Amygdala to Social Memory* Invited by
