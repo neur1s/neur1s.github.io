@@ -150,13 +150,7 @@ Halle-Wittenberg, Germany*
     **Role:** Analyzed single-cell spatial transcriptomic data using
     machine learning classifiers. **Contribution:** 10%
 
-4.  Zanjanpour D., **Zbaranska, S.**, Liu H.T., Laschowski B. A
-    Neuroscientific Framework for Trust in Human-Robot Interaction
-    (under preparation).  
-    **Role:** Literature review, conceptual framework development, and
-    manuscript writing. **Contribution:** 20%
-
-5.  Luchetti, A., Wu, B., Hoorn A.A., **Zbaranska, S.**, Jacob A.D.,
+4.  Luchetti, A., Wu, B., Hoorn A.A., **Zbaranska, S.**, Jacob A.D.,
     Mocle A.J, Chen M., DeCristofaro A., Frankland P.W., Josselyn S.A.
     Decoding of Neuronal Activity Patterns in the Lateral Amygdala
     during Fear Memory Formation in Mice (under preparation).  
@@ -176,9 +170,16 @@ Halle-Wittenberg, Germany*
     Represented graduate student perspective on the search committee for
     recruiting a Principal Investigator in Molecular and Cellular Basis
     of Cognition. Contributed to application review, candidate
-    interviews, and scoring.
+    interviews, and scoring
+
+-   **Since 2026**&nbsp;&nbsp;&nbsp; **Poster Judge** at SickKids Summer
+    Research Symposium (2026/08/13)
 
 # Public Talks
+
+-   **2026/08/24**&nbsp;&nbsp;&nbsp; *Telling Friends from Foes: The
+    Role of the Medial Amygdala in Social Memory*. S2026 Annual Meeting
+    of the Society for Social Neuroscience. Montreal, QC Canada.
 
 -   **2026/07/17**&nbsp;&nbsp;&nbsp; *A Brain-Inspired Framework for
     Memory Prioritization in Machines Based on Valence* (watch on
@@ -187,7 +188,7 @@ Halle-Wittenberg, Germany*
 
 -   **2026/05/18**&nbsp;&nbsp;&nbsp; *Telling Friends from Foes:
     Contributions of the Medial Amygdala to Social Memory*. Canadian
-    Association for Neuroscience Meeting (Integrate and Fire Satellite),
+    Association for Neuroscience Meeting (Integrate and Fire Satellite).
     Montreal, QC Canada.
 
 -   **2026/02/05**&nbsp;&nbsp;&nbsp; *Modeling Memory in the Brain Using
@@ -207,14 +208,14 @@ Halle-Wittenberg, Germany*
 # Conference Presentations
 
 1.  **Zbaranska S.**, Sarikahya M.H., Luchetti A., Rashid A. J.,
-    Frankland P.W., Josselyn S.A. How the Medial Amygdala Shapes Neutral
-    and Emotionally Charged Social Memories. 2026 Annual Meeting of the
-    Society for Social Neuroscience (upcoming). Montreal, QC, Canada,
-    August 2026. Poster presentation.
+    Frankland P.W., Josselyn S.A. How Oxytocin Signalling Enables Social
+    Memory in Mice. 2026 Annual Meeting of the Society for Social
+    Neuroscience. Montreal, QC, Canada, August 2026. Poster
+    presentation.
 
 2.  **Zbaranska S.**, Rajeev A., Josselyn S., and Laschowski B.
-    Neuroscience-Inspired AI for Memory. Toronto Robotics Conference
-    2026 (upcoming). Toronto, ON, Canada, June 2026. Poster
+    Neuroscience-Inspired AI for Memory. Toronto Robotics
+    Conference 2026. Toronto, ON, Canada, June 2026. Poster
     presentation.
 
 3.  **Zbaranska S.**, Sarikahya M.H., Luchetti A., Frankland P.W.,
@@ -331,6 +332,20 @@ Halle-Wittenberg, Germany*
     Gate method), transformation, plasmid and RNA purification,
     restriction analysis, PCR, gel electrophoresis, SDS-PAGE and Western
     Blot.
+
+# Mentorship
+
+-   **2026/07-2026/08**&nbsp;&nbsp;&nbsp; **Yvonne Gibney**,
+    undergraduate student from Biology undergrad at McGill
+    (immunohistological stainings and analysis in Fiji/Python)
+
+-   **2025/08-2025/09**&nbsp;&nbsp;&nbsp; **Rebecca Florea**, medical
+    student from University of Pisa, Italy (immunohistological
+    statining, confocal microscopy)
+
+-   **2024/10-2025/06**&nbsp;&nbsp;&nbsp; **Helina (Yunke) Wu**,
+    Undergrad student at UofT (neuronal subtype classification using
+    machine learning algorithms)
 
 # Leadership and Extracurricular Activities
 
